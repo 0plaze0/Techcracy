@@ -1,8 +1,9 @@
 import { Event } from "../../../types/event";
-
+import "./EventCard.scss";
 const EventCard = ({ eventData }: { eventData: Event }) => {
+    const card_class = eventData.event_type.toLowerCase().split(" ")[0];
     return (
-        <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className={`shadow-lg rounded-lg overflow-hidden ${card_class}`}>
             <img
                 className="w-full h-56 object-cover object-center"
                 src={eventData.image}

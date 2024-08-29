@@ -13,4 +13,5 @@ export interface Event {
     location: string;
     image: string;
     organizers?: EventOrganizer[];
+    event_type: "Workshop" | "Exhibition" | "Lecture Series";
 }
