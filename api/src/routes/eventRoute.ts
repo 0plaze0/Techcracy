@@ -13,7 +13,7 @@ const router = express.Router();
 const upload = multer({ storage });
 
 router.post("/create-event", upload.single("file"), createEvent);
-router.put("/update-event/:id", updateEvent);
+router.put("/update-event/:id", upload.single("file"), updateEvent);
 router.get("/get-event", getAllEvent);
 router.get("/get-event/:id", getEvent);
 router.delete("/delete-event/:id", deleteEvent);
