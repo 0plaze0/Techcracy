@@ -6,10 +6,7 @@ const eventSchema = new mongoose.Schema({
     require: true,
     trim: true,
   },
-  type: {
-    type: String,
-    require: true,
-  },
+
   description: {
     type: String,
     required: true,
@@ -24,20 +21,19 @@ const eventSchema = new mongoose.Schema({
       required: true,
     },
   },
-  coordinaters: [
+  organizers: [
     {
       type: mongoose.Schema.Types.ObjectId,
       ref: "user",
       required: true,
     },
   ],
-  contact: {
-    phone: {
-      type: String,
-    },
-    email: {
-      type: String,
-    },
+  location: {
+    type: String,
+  },
+  event_type: {
+    type: String,
+    require: true,
   },
 });
 
