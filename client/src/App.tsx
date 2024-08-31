@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
-import { Home, EventPage, AdminDashboard } from "./pages";
+import { Home, EventPage, AdminDashboard, CreateEvent } from "./pages";
 function App() {
   return (
     <Routes>
@@ -8,7 +8,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="events" element={<EventPage />} />
         <Route path="admin" element={<AdminDashboard />}>
-          <Route path="create-events" element={<h1>CreateEvent</h1>} />
+          <Route path="create-events" element={<CreateEvent />} />
           <Route path="all-events" element={<h1>all events</h1>} />
         </Route>
       </Route>
