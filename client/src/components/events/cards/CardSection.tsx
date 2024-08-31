@@ -1,21 +1,30 @@
+import EventCardsEdit from "./EventCardEdit";
 import EventCards from "./EventCard";
 import { Event, EventData } from "../../../types/event";
 
-const CardSection = ({ events }: { events: EventData }) => {
-    const event_type = events.event_type;
+const CardSection = ({
+  events,
+  edit,
+}: {
+  events: EventData;
+  edit: Boolean;
+}) => {
+  const event_type = events.event_type;
 
-    return (
-        <section className="container mx-auto px-4 py-8 text-center w-full">
-            <h2 className="text-4xl font-semibold text-gray-800">
-                {event_type}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
-                {events.events.map((event: Event) => (
-                    <EventCards key={event.event_id} eventData={event} />
-                ))}
-            </div>
-        </section>
-    );
+  return (
+    <section className="container mx-auto px-4 py-8 text-center w-full">
+      <h2 className="text-4xl font-semibold text-gray-800">{event_type}</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+        {!edit
+          ? events.events.map((event: Event) => (
+              <EventCards key={event.event_id} eventData={event} />
+            ))
+          : events.events.map((event: Event) => (
+              <EventCardsEdit key={event.event_id} eventData={event} />
+            ))}
+      </div>
+    </section>
+  );
 };
 
 export default CardSection;

@@ -1,6 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
-import { Home, EventPage, AdminDashboard, CreateEvent } from "./pages";
+import {
+  Home,
+  EventPage,
+  AdminDashboard,
+  CreateEvent,
+  AllEvent,
+} from "./pages";
 function App() {
   return (
     <Routes>
@@ -9,7 +15,7 @@ function App() {
         <Route path="events" element={<EventPage />} />
         <Route path="admin" element={<AdminDashboard />}>
           <Route path="create-events" element={<CreateEvent />} />
-          <Route path="all-events" element={<h1>all events</h1>} />
+          <Route path="all-events" element={<AllEvent />} />
         </Route>
       </Route>
     </Routes>
