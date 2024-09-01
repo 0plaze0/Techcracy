@@ -109,8 +109,6 @@ const deleteEvent = async (req: Request, res: Response) => {
       (error) => {
         if (error) {
           res.status(500).send("Error deleting file");
-        } else {
-          res.send("File deleted successfully");
         }
       }
     );
