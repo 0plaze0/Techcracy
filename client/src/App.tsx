@@ -6,6 +6,8 @@ import {
   AdminDashboard,
   CreateEvent,
   AllEvent,
+  AllOrganizer,
+  CreateOrganizer,
 } from "./pages";
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="admin" element={<AdminDashboard />}>
           <Route path="create-events" element={<CreateEvent />} />
           <Route path="all-events" element={<AllEvent />} />
+          <Route path="all-organizer" element={<AllOrganizer />} />
+          <Route path="create-organizer" element={<CreateOrganizer />} />
         </Route>
       </Route>
     </Routes>

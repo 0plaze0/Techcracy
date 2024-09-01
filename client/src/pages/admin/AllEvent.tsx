@@ -3,8 +3,8 @@ import data from "./../../data/events/events.json";
 
 import CardSection from "./../../components/events/cards/CardSection";
 
-const AllEvent = ({ events }: { events: EventData[] }) => {
-  events = data as EventData[];
+const AllEvent = () => {
+  const events = data as EventData[];
   return (
     <div className="flex flex-col gap-4 mt-6">
       {events.map((event: EventData) => (
