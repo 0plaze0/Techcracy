@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Event } from "../../types/event";
 import { PhotoIcon } from "@heroicons/react/24/solid";
 import { api } from "../../config/api";
+import { event_type } from "../../constants/AdminNavigation";
 
 const CreateEvent = () => {
   const [event, setEvent] = useState<Partial<Event>>({
@@ -10,13 +11,16 @@ const CreateEvent = () => {
     date: "",
     location: "",
     event_type: "Exhibition",
+    organizers: [],
   });
+
   //title, description, date, location, organizers, event_type
   const [file, setFile] = useState<File | null>(null);
   const handleChange = (
     e:
       | React.ChangeEvent<HTMLInputElement>
       | React.ChangeEvent<HTMLTextAreaElement>
+      | React.ChangeEvent<HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
     setEvent((prev) => ({ ...prev, [name]: value }));
@@ -38,6 +42,14 @@ const CreateEvent = () => {
     try {
       const { data } = await api.post("/api/v1/event/create-event", formdata);
       if (data.success) {
+        setEvent({
+          title: "",
+          description: "",
+          date: "",
+          location: "",
+          event_type: "Exhibition",
+        });
+        setFile(null);
         console.log("successfully created");
       }
     } catch (error) {
@@ -67,7 +79,7 @@ const CreateEvent = () => {
                     onChange={(e) => {
                       handleChange(e);
                     }}
-                    placeholder="janesmith"
+                    placeholder="deepMom"
                     autoComplete="title"
                     className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                   />
@@ -147,7 +159,7 @@ const CreateEvent = () => {
 
         <div className="border-b border-gray-900/10 pb-12">
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-            <div className="sm:col-span-3">
+            {/* <div className="sm:col-span-3">
               <label
                 htmlFor="country"
                 className="block text-sm font-medium leading-6 text-gray-900"
@@ -158,6 +170,7 @@ const CreateEvent = () => {
                 <select
                   id="country"
                   name="country"
+                  //value={event.organizers}
                   autoComplete="country-name"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                 >
@@ -166,25 +179,29 @@ const CreateEvent = () => {
                   <option>Deep dad</option>
                 </select>
               </div>
-            </div>
+            </div> */}
 
             <div className="sm:col-span-3">
               <label
-                htmlFor="country"
+                htmlFor="event-type"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
                 Type
               </label>
               <div className="mt-2">
                 <select
-                  id="country"
-                  name="country"
-                  autoComplete="country-name"
+                  id="event_type"
+                  name="event_type"
+                  value={event.event_type}
+                  onChange={handleChange}
+                  autoComplete="event_type"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                 >
-                  <option>WorkShop</option>
-                  <option>Exhibition</option>
-                  <option>Lecture Series</option>
+                  {event_type.map((type) => (
+                    <option key={type.title} value={type.value}>
+                      {type.title}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>
