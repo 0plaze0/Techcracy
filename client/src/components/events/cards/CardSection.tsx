@@ -17,10 +17,10 @@ const CardSection = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
         {!edit
           ? events.events.map((event: Event) => (
-              <EventCards key={event.event_id} eventData={event} />
+              <EventCards key={event._id} eventData={event} />
             ))
           : events.events.map((event: Event) => (
-              <EventCardsEdit key={event.event_id} eventData={event} />
+              <EventCardsEdit key={event._id} eventData={event} />
             ))}
       </div>
     </section>

@@ -7,6 +7,7 @@ import {
   getEvent,
   updateEvent,
 } from "./../controllers/eventController";
+import { getImage } from "../controllers/uploadController";
 import { storage } from "../config/multerConfig";
 
 const router = express.Router();
@@ -16,6 +17,7 @@ router.post("/create-event", upload.single("file"), createEvent);
 router.put("/update-event/:id", upload.single("file"), updateEvent);
 router.get("/get-event", getAllEvent);
 router.get("/get-event/:id", getEvent);
+router.get("/get-image/:imageId", getImage);
 router.delete("/delete-event/:id", deleteEvent);
 
 export default router;
