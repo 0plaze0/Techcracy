@@ -1,87 +1,87 @@
 @import url("https://fonts.cdnfonts.com/css/bright-demo");
 :root {
-  --red: #b00;
-  --purple: #911efbf2;
-  --blue: #8ee4ff;
-  --green: #00e290;
-  --orange: #fc6a00;
-  --grey: #b0b0b0;
-  --font: bright-demo;
-  --white: white;
+    --red: #b00;
+    --purple: #911efbf2;
+    --blue: #8ee4ff;
+    --green: #00e290;
+    --orange: #fc6a00;
+    --grey: #b0b0b0;
+    --font: bright-demo;
+    --white: white;
 }
 .main_back_1 {
-  width: 100%;
-  height: 700vh;
-  /* border: solid 1px blue; */
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  flex-direction: column;
-  overflow: hidden;
+    width: 100%;
+    height: 700vh;
+    /* border: solid 1px blue; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    overflow: hidden;
 }
 .App {
-  text-align: center;
-  /* border: solid 0px; */
+    text-align: center;
+    /* border: solid 0px; */
 }
 .main_body {
-  height: 54px;
-  width: 826px;
-  border: solid 1px;
-  position: absolute;
-  top: 65px;
-  left: 343px;
-  display: flex;
-  border-radius: 10px;
+    height: 54px;
+    width: 826px;
+    border: solid 1px;
+    position: absolute;
+    top: 65px;
+    left: 343px;
+    display: flex;
+    border-radius: 10px;
 }
 .logo {
-  width: 10%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* text-align: center; */
-  /* border: solid 1px black; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* border: solid 1px black; */
 }
 .event {
-  width: 95%;
-  height: 100%;
-  /* border: solid 1px black; */
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: end;
+    width: 95%;
+    height: 100%;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: end;
 }
 .a {
-  position: relative;
-  top: 10%;
-  width: 20%;
-  height: 70%;
-  /* border: solid 1px blue;   */
-  display: flex;
-  font-family: Bright DEMO;
-  justify-content: center;
-  align-items: center;
-  font-size: 26px;
-  font-weight: 400;
+    position: relative;
+    top: 10%;
+    width: 20%;
+    height: 70%;
+    /* border: solid 1px blue;   */
+    display: flex;
+    font-family: Bright DEMO;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 400;
 }
 .main_back {
 }
 .section1 {
-  /* position: absolute; */
-  width: 100%;
-  height: 98vh;
-  /* border: solid 1px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: url(src/assets/Full_logo_with_tag_black-removebg-preview.png); */
-  /* background-size: 40% 18%; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-color: transparent; */
-  /* mix-blend-mode:screen; */
-  overflow: hidden;
-  /* z-index: 1; */
+    /* position: absolute; */
+    width: 100%;
+    height: 98vh;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(src/assets/Full_logo_with_tag_black-removebg-preview.png); */
+    /* background-size: 40% 18%; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-color: transparent; */
+    /* mix-blend-mode:screen; */
+    overflow: hidden;
+    /* z-index: 1; */
 }
 /* .techcracy{
   display: flex;
@@ -92,203 +92,169 @@
   width: 55%;
 } */
 .techcracy {
-  position: absolute;
-  top: 50%; /* Adjust this value to change where the logo sticks */
-  transform: translateY(-50%);
-  z-index: 2;
-  width: 55%;
-  transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%; /* Adjust this value to change where the logo sticks */
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 55%;
+    transition: opacity 0.3s ease;
 }
 @keyframes mario_run {
-  0% {
-    transform: translateX(-10%);
-  }
-  100% {
-    transform: translateX(1000%);
-  }
+    0% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(1000%);
+    }
 }
 .mario {
-  display: flex;
-  background-color: transparent;
-  position: absolute;
-  width: 10%;
-  z-index: 30;
-  top: -19%;
-  left: -30px;
-  /* float: right; */
-  animation: mario_run 5s linear infinite;
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    width: 10%;
+    z-index: 30;
+    top: -19%;
+    left: -30px;
+    /* float: right; */
+    animation: mario_run 5s linear infinite;
 }
 .section1_bottom {
-  overflow: hidden;
-  /* position: absolute; */
-  /* z-index: 2; */
-  width: 100%;
-  height: 4.5vh;
-  /* border: solid 1px; */
-  background: url(src/assets/GRASS.png);
-  background-size: contain;
+    overflow: hidden;
+    /* position: absolute; */
+    /* z-index: 2; */
+    width: 100%;
+    height: 4.5vh;
+    /* border: solid 1px; */
+    background: url(src/assets/GRASS.png);
+    background-size: contain;
 }
 .tech_video {
-  z-index: -1;
-  transform: scaleX(1.2);
-  /* right: 200px; */
+    z-index: -1;
+    transform: scaleX(1.2);
+    /* right: 200px; */
 }
 .sp {
-  width: 0;
-  height: 0;
-  border-left: 98vw solid transparent;
-  border-bottom: 6.9vw solid #2e2433;
-  z-index: 2;
+    width: 0;
+    height: 0;
+    border-left: 98vw solid transparent;
+    border-bottom: 6.9vw solid #2e2433;
+    z-index: 2;
 }
 .section2 {
-  width: 100%;
-  height: 98vh;
-  position: relative;
-  /* overflow: hidden; */
+    width: 100%;
+    height: 98vh;
+    position: relative;
+    /* overflow: hidden; */
 }
 .soil {
-  position: absolute;
-  top: -186px;
-  left: 0;
-  /* height:310%; */
-  width: 100%;
-  z-index: 1;
+    position: absolute;
+    top: -186px;
+    left: 0;
+    /* height:310%; */
+    width: 100%;
+    z-index: 1;
 }
 .insomnia {
-  position: absolute;
-  top: 10%;
-  left: 12%;
-  width: 22%;
-  transform: rotate(15deg);
-  z-index: 2;
-  animation: shrink 2.4s linear infinite;
-  /* transform: scale(1); */
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    width: 22%;
+    transform: rotate(15deg);
+    z-index: 2;
+    animation: shrink 2.4s linear infinite;
+    /* transform: scale(1); */
 }
 @keyframes shrink {
-  0%,
-  100% {
-    transform: scale(0.8) rotate(12deg);
-    /* transform: rotate(12deg); */
-  }
-  50% {
-    transform: scale(1) rotate(15deg);
-    /* transform: rotate(15deg); */
-  }
+    0%,
+    100% {
+        transform: scale(0.8) rotate(12deg);
+        /* transform: rotate(12deg); */
+    }
+    50% {
+        transform: scale(1) rotate(15deg);
+        /* transform: rotate(15deg); */
+    }
 }
 @keyframes pshrink {
-  0%,
-  100% {
-    transform: scale(0.8) rotate(-12deg);
-    /* transform: rotate(12deg); */
-  }
-  50% {
-    transform: scale(1) rotate(-15deg);
-    /* transform: rotate(15deg); */
-  }
+    0%,
+    100% {
+        transform: scale(0.8) rotate(-12deg);
+        /* transform: rotate(12deg); */
+    }
+    50% {
+        transform: scale(1) rotate(-15deg);
+        /* transform: rotate(15deg); */
+    }
 }
 .exhibition {
-  position: absolute;
-  top: 65%;
-  left: 12%;
-  width: 30%;
-  transform: rotate(5deg);
-  z-index: 2;
-  animation: shrink 2.4s linear infinite;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    width: 30%;
+    transform: rotate(5deg);
+    z-index: 2;
+    animation: shrink 2.4s linear infinite;
 }
 .compition {
-  position: absolute;
-  top: 42%;
-  left: 72%;
-  width: 18%;
-  transform: rotate(-15deg);
-  z-index: 2;
-  animation: pshrink 2.4s linear infinite;
+    position: absolute;
+    top: 42%;
+    left: 72%;
+    width: 18%;
+    transform: rotate(-15deg);
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
 }
 @keyframes key {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
 
-    /* transform: translateX(100%); */
-  }
+        /* transform: translateX(100%); */
+    }
 }
 .section2_bottom {
-  width: 101%;
-  height: 4.5vh;
-  right: 0.3%;
-  /* border: solid 1px; */
-  z-index: 10;
-  position: relative;
-  top: 70px;
-  transform: rotate(-4deg);
-  white-space: nowrap;
-  overflow: hidden;
+    width: 101%;
+    height: 4.5vh;
+    right: 0.3%;
+    /* border: solid 1px; */
+    z-index: 10;
+    position: relative;
+    top: 70px;
+    transform: rotate(-4deg);
+    white-space: nowrap;
+    overflow: hidden;
 }
 .strap-slide {
-  display: flex;
-  /* position: absolute; */
-  /* position: relative; */
-  /* background: url(src/assets/strap.png) 0 0 repeat-x; */
-  /* background-size: auto 100%; */
-  width: 150%;
-  height: 100%;
-  /* top: -50%; */
-  left: -15%;
-  z-index: -1;
-  animation: key 2s linear infinite;
-  /* animation: slide 2s linear infinite; */
-  height: 100%;
+    display: flex;
+    /* position: absolute; */
+    /* position: relative; */
+    /* background: url(src/assets/strap.png) 0 0 repeat-x; */
+    /* background-size: auto 100%; */
+    width: 150%;
+    height: 100%;
+    /* top: -50%; */
+    left: -15%;
+    z-index: -1;
+    animation: key 2s linear infinite;
+    /* animation: slide 2s linear infinite; */
+    height: 100%;
 }
 .strap-slide img {
-  height: 100%;
-  /* Adjust the margin if needed to ensure proper spacing between iterations */
-  margin: 0;
+    height: 100%;
+    /* Adjust the margin if needed to ensure proper spacing between iterations */
+    margin: 0;
 }
 @keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 /* Optional: Add hover effect to pause animation */
 /* .section2_bottom:hover .strap-slide {
   animation-play-state: paused;
 } */
-.techcracy {
-}
-.section3 {
-  background-color: #2e2433;
-  height: 109vh;
-  z-index: 2;
-}
-.section4 {
-  /* position: absolute; */
-  width: 100%;
-  height: 98vh;
-  /* border: solid 1px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: url(src/assets/Full_logo_with_tag_black-removebg-preview.png); */
-  /* background-size: 40% 18%; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-color: transparent; */
-  /* mix-blend-mode:screen; */
-  overflow: hidden;
-  /* z-index: 1; */
-}
-.merchandise {
-  /* z-index:; */
-  width: 100%;
-  /* tranform: scale(0.2); */
-}
-.section4_bottom {
-  width: 100%;
-  background-color: #d9d9d9;
-  height: 0.3%;
-}
