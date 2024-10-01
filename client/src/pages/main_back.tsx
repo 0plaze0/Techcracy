@@ -17,7 +17,7 @@ const Main_back = () => {
     return (
         <main className="main_back">
             <div className="main_back_1">
-                <div className="section1">
+                {/* <div className="section1">
                     <video
                         className="tech_video"
                         autoPlay
@@ -35,7 +35,7 @@ const Main_back = () => {
                         src="./assets/Full_logo_with_tag_black-removebg-preview.png"
                         alt="image loading"
                     />
-                </div>
+                </div> */}
                 <div className="section1_bottom"></div>
                 <div className="section2">
                     <img
@@ -98,7 +98,7 @@ const Main_back = () => {
                 <div className="section3">
                     <h1 className="merchandise"></h1>
                 </div>
-                <div className="section4">
+                {/* <div className="section4">
                     <video
                         className="merchandise"
                         autoPlay
@@ -111,7 +111,7 @@ const Main_back = () => {
                             type="video/mp4"
                         />
                     </video>
-                </div>
+                </div> */}
                 <div className="section4_bottom"></div>
                 <div className="section5"></div>
             </div>

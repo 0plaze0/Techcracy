@@ -1,10 +1,10 @@
-import { Merchandise } from "../../components/home";
-
+import { Hero, Merchandise } from "../../components/home";
 
 export default function HomePage() {
-  return (
-    <main className="">
-      <Merchandise />
-    </main>
-  );
-};
+    return (
+        <main>
+            <Hero />
+            <Merchandise />
+        </main>
+    );
+}
