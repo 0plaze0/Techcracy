@@ -70,30 +70,19 @@ const Main_back = () => {
                         />
                     </a>
                 </div>
-                <div className="section2_bottom">
+                {/* <div className="section2_bottom">
                     <div className="strap-slide">
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
+                        {Array(20)
+                            .fill(0)
+                            .map((_, i) => (
+                                <img
+                                    key={i}
+                                    src="/assets/strap.png"
+                                    alt="strap"
+                                />
+                            ))}
                     </div>
-                    <div className="strap-slide">
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                        <img src="./assets/strap.png" alt="strap" />
-                    </div>
-                </div>
+                </div> */}
                 <div className="sp"></div>
                 {/* <div className="section3">
                     <h1 className="merchandise"></h1>

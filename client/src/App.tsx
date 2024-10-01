@@ -12,7 +12,8 @@ function App() {
     return (
         <Routes>
             <Route path="/">
-                <Route index element={<Home />} />
+                <Route path="/" element={<Home />} />
+                <Route path="landing" element={<Landing />} />
                 <Route path="events" element={<EventPage />} />
                 <Route path="admin" element={<AdminDashboard />}>
                     <Route path="all-events" element={<AllEvent />} />

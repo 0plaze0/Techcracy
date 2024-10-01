@@ -39,6 +39,8 @@
     }
 }
 /* Optional: Add hover effect to pause animation */
-/* .section2_bottom:hover .strap-slide {
-  animation-play-state: paused;
-} */
+.tilted-slider:hover .slider-slide {
+    /* animation-play-state: paused; */
+    /* change animation speed */
+    animation: slide 10s linear infinite;
+}

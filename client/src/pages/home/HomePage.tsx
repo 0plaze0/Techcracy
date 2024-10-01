@@ -1,10 +1,11 @@
-import { Hero, Strap, Merchandise } from "../../components/home";
+import { Hero,Events,Slider, Merchandise } from "../../components/home";
 
 export default function HomePage() {
     return (
         <main>
             <Hero />
-            <Strap />
+            <Events />
+            <Slider />
             <Merchandise />
         </main>
     );
