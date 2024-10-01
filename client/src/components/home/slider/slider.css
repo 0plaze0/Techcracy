@@ -44,3 +44,12 @@
     /* change animation speed */
     animation: slide 10s linear infinite;
 }
+
+
+.slider-bottom {
+    width: 0;
+    height: 0;
+    border-left: 98vw solid transparent;
+    border-bottom: 6.9vw solid #2e2433;
+    z-index: 2;
+}

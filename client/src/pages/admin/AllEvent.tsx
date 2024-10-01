@@ -1,5 +1,5 @@
 import { EventData } from "./../../types/event";
-import data from "./../../data/events/events.json";
+// import data from "./../../data/events/events.json";
 
 import CardSection from "./../../components/events/cards/CardSection";
 import { useEffect, useState } from "react";

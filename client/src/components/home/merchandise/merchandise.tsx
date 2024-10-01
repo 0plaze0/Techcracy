@@ -1,6 +1,5 @@
 import "./merchandise.scss";
 
-
 export default function Merchandise() {
     return (
         <>
@@ -15,6 +14,7 @@ export default function Merchandise() {
                     />
                 </video>
             </div>
+            <div className="merchandise_bottom"></div>
         </>
     );
 }
