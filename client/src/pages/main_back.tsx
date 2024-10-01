@@ -95,10 +95,10 @@ const Main_back = () => {
                     </div>
                 </div>
                 <div className="sp"></div>
-                <div className="section3">
+                {/* <div className="section3">
                     <h1 className="merchandise"></h1>
-                </div>
-                {/* <div className="section4">
+                </div> 
+                 <div className="section4">
                     <video
                         className="merchandise"
                         autoPlay
