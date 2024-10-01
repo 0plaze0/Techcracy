@@ -7,7 +7,7 @@ const CardSection = ({
   edit,
 }: {
   events: EventData;
-  edit: Boolean;
+  edit: boolean;
 }) => {
   const event_type = events.event_type;
 
