@@ -8,12 +8,13 @@ import {
   AllEvent,
   AllOrganizer,
   CreateOrganizer,
+  Landing,
 } from "./pages";
 function App() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={<Home />} />
+        <Route index element={<Landing />} />
         <Route path="events" element={<EventPage />} />
         <Route path="admin" element={<AdminDashboard />}>
           <Route path="create-events" element={<CreateEvent />} />
