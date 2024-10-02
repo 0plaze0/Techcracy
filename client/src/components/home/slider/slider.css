@@ -21,7 +21,7 @@
     /* top: -50%; */
     left: -15%;
     z-index: -1;
-    animation: key 2s linear infinite;
+    animation: key 16s linear infinite;
     /* animation: slide 2s linear infinite; */
     height: 100%;
 }
@@ -39,12 +39,6 @@
     }
 }
 /* Optional: Add hover effect to pause animation */
-.tilted-slider:hover .slider-slide {
-    /* animation-play-state: paused; */
-    /* change animation speed */
-    animation: slide 10s linear infinite;
-}
-
 
 .slider-bottom {
     width: 0;
