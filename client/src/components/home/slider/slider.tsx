@@ -12,7 +12,7 @@ export default function Slider() {
                         ))}
                 </div>
             </section>
-            <section className="slider-bottom"></section>
+            {/* <section className="slider-bottom"></section> */}
         </>
     );
 }

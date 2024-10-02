@@ -3,37 +3,53 @@ import "./events.css";
 export default function Events() {
     return (
         <section className="events-section">
-            <img
+            {/* <img
                 className="mario"
                 src="/assets/marioRun.gif"
                 alt="image loading"
-            />
-            <img
+            /> */}
+            {/* <img
                 className="soil"
                 src="/assets/underground.png"
                 alt="image loading"
-            />
+            /> */}
             <a href="">
                 <img
                     className="insomnia"
-                    src="/assets/INSOMNIA.png"
+                    src="src\assets\imsomnia.png"
                     alt="image loading"
                 />
             </a>
             <a href="">
                 <img
                     className="exhibition"
-                    src="/assets/exhibition.png"
+                    src="src\assets\exibitions.png"
                     alt="image loading"
                 />
             </a>
             <a href="">
                 <img
                     className="competition"
-                    src="/assets/compition.png"
+                    src="src\assets\competitions.png"
                     alt="image loading"
                 />
             </a>
+            <a href="">
+                <img
+                    className="workshop"
+                    src="src\assets\workshop.png"
+                    alt="image loading"
+                />
+            </a>
+            <a href="">
+                <img
+                    className="lecture"
+                    src="src\assets\lecture series.png"
+                    alt="image loading"
+                />
+            </a>
+            <section className="event_header">Our events</section>
+            <section className="event_summary">Techcracy 2024 features thrilling events like gaming tournaments technical competitions, workshops, lecture series, exhibition.</section>
         </section>
     );
 }
