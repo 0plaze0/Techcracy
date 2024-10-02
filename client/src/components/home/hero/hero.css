@@ -29,7 +29,7 @@
     width: 100%;
     height: 4.5vh;
     /* border: solid 1px; */
-    background: url("./assets/GRASS.png");
+    background: url("/assets/GRASS.png");
     background-size: contain;
 }
 @keyframes mario_run {

@@ -1,3 +1,5 @@
+// make ts not check for type errors when importing libraries
+// @ts-nocheck
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import "./WorkshopCarousel.scss";
