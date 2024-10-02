@@ -1,8 +1,9 @@
 .events-section {
     width: 100%;
-    height: 98vh;
+    height: 120vh;
     position: relative;
     /* overflow: hidden; */
+    border: solid 1px;
 }
 @keyframes mario_run {
     0% {
@@ -63,31 +64,70 @@
         /* transform: rotate(15deg); */
     }
 }
+        @keyframes key {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+        
+                /* transform: translateX(100%); */
+            }
+        }
 .exhibition {
     position: absolute;
-    top: 65%;
+    top: 63%;
     left: 12%;
-    width: 30%;
-    transform: rotate(5deg);
+    width: 27%;
+    /* background-color: transparent; */
+    /* transform: rotate(5deg); */
     z-index: 2;
     animation: shrink 2.4s linear infinite;
 }
 .competition {
     position: absolute;
-    top: 42%;
+    top: 41%;
     left: 72%;
-    width: 18%;
+    width: 20%;
     transform: rotate(-15deg);
     z-index: 2;
     animation: pshrink 2.4s linear infinite;
 }
-@keyframes key {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-
-        /* transform: translateX(100%); */
-    }
+.lecture {
+    position: absolute;
+    top: 68%;
+    left: 56%;
+    width: 23%;
+    /* transform: rotate(-15deg); */
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
+}
+.workshop {
+    position: absolute;
+    top: 13%;
+    left: 48.9%;
+    width: 22%;
+    transform: rotate(-15deg);
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
+}
+.event_header{
+/* border: solid 1px; */
+position: absolute;
+text-align: center;
+font-weight: 600;
+font-size: 23px;
+font-family: DM Sans;
+left: 46%;
+}
+.event_summary{
+    font-family: DM Sans;
+    text-align: center;
+    position: absolute;
+    /* border: solid 1px; */
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    top: 55%;
+    left: 35%;
 }

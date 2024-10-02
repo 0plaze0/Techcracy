@@ -5,8 +5,8 @@
     /* border: solid 1px; */
     z-index: 10;
     position: relative;
-    top: 70px;
-    transform: rotate(-4deg);
+    /* top: px; */
+    /* transform: rotate(-4deg); */
     white-space: nowrap;
     overflow: hidden;
 }

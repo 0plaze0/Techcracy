@@ -5,8 +5,9 @@ export default function HomePage() {
         <main className="main_back_1">
             <Hero />
             <Events />
-            <Slider />
             <Merchandise />
+            <Slider />
+            {/* <Slider /> */}
         </main>
     );
 }
