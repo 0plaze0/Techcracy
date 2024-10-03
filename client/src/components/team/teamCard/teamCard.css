@@ -1,33 +1,74 @@
-.team-area .item .thumb::after {
-    background: #232323 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.team-area .item {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.team-area .team-items .item:hover .thumb::after {
-    opacity: 0.7;
+.team-area .info {
+    padding: 15px 8px 8px;
+    box-shadow: 0 0 6px #cccccc;
+    background: #ffffff;
+    position: relative;
+}
+
+.team-area .info h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f30521;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+.team-area .info span.position {
+    font-size: 17px;
+    font-weight: 600;
+    color: #272626;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 4px;
+}
+
+.team-area .info .message {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #cccccc;
+}
+
+.team-area .info .message a {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    color: #ff5a6e;
+}
+
+.team-area .item .thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-area .item .thumb img {
+    transition: all 0.35s ease-in-out;
+    height: auto;
+    width: 100%;
 }
 
 .team-area .item .thumb .overlay {
     top: -100%;
     left: 0;
-    padding: 20px;
+    padding: 12px;
     position: absolute;
     text-align: center;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
     width: 100%;
     z-index: 1;
@@ -39,100 +80,101 @@
     left: 50%;
 }
 
-.team-area .item .thumb .overlay p {
-    color: #ffffff;
-}
-
-.team-area .item .thumb .overlay h4 {
-    color: #ffffff;
-    display: inline-block;
-    position: relative;
-    text-transform: uppercase;
-}
-
-.team-area .item .thumb img {
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-
-.team-area .item:hover .thumb img {
-    opacity: 0.6;
-}
-
-.team-area .item .thumb .social li {
-    display: inline-block;
-}
-
 .team-area .item .thumb .social li a {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     margin: 0 2px;
-    text-align: center;
-    width: 40px;
+    width: 30px;
 }
 
-.team-area .info {
-    background: #ffffff none repeat scroll 0 0;
-    -moz-box-shadow: 0 0 10px #cccccc;
-    -webkit-box-shadow: 0 0 10px #cccccc;
-    -o-box-shadow: 0 0 10px #cccccc;
-    box-shadow: 0 0 10px #cccccc;
-    padding: 40px 20px 20px;
-    position: relative;
-    text-align: center;
-    z-index: 9;
+@media (max-width: 576px) {
+    .team .team-area .item {
+        width: 50%;
+    }
+
+    .team-area .info h4 {
+        font-size: 16px;
+    }
+
+    .team-area .info span.position {
+        font-size: 14px;
+    }
+
+    .team-area .info .message {
+        height: 35px;
+        width: 35px;
+    }
+
+    .team-area .info .message a {
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+    }
+
+    .team-area .item .thumb .social li a {
+        height: 25px;
+        line-height: 25px;
+        width: 25px;
+    }
 }
 
-.team-area .info .message {
-    height: 50px;
-    line-height: 40px;
-    margin-left: -25px;
-    margin-top: -25px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 50px;
+@media (min-width: 576px) and (max-width: 768px) {
+    .team-area .item {
+        width: 80%;
+    }
+
+    .team-area .info h4 {
+        font-size: 18px;
+    }
+
+    .team-area .info span.position {
+        font-size: 15px;
+    }
+
+    .team-area .info .message {
+        height: 38px;
+        width: 38px;
+    }
+
+    .team-area .info .message a {
+        font-size: 15px;
+    }
+
+    .team-area .item .thumb .social li a {
+        height: 28px;
+        line-height: 28px;
+        width: 28px;
+    }
 }
 
-.team-area .info .message a {
-    background: #fff none repeat scroll 0 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -moz-box-shadow: 0 0 10px #cccccc;
-    -webkit-box-shadow: 0 0 10px #cccccc;
-    -o-box-shadow: 0 0 10px #cccccc;
-    box-shadow: 0 0 10px #cccccc;
-    box-sizing: border-box;
-    color: #ff5a6e;
-    display: inline-block;
-    font-size: 20px;
-    height: 50px;
-    line-height: 50px;
-    width: 50px;
-}
+@media (min-width: 768px) and (max-width: 992px) {
+    .team-area .item {
+        width: 75%;
+    }
 
-.team-area .info .message a i {
-    font-weight: 500;
-}
+    .team-area .info h4 {
+        font-size: 19px;
+    }
 
-.team-area .info h4 {
-    font-weight: 600;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-}
+    .team-area .info span.position {
+        font-size: 16px;
+    }
 
-.team-area .info span {
-    color: #ff5a6e;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
+    .team-area .info .message {
+        height: 40px;
+        width: 40px;
+    }
+
+    .team-area .info .message a {
+        font-size: 16px;
+    }
+
+    .team-area .item .thumb .social li a {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+    }
 }

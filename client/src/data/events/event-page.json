@@ -1,0 +1,73 @@
+[
+    {
+        "event_type": "Anchoring",
+        "events": [
+            {
+                "name": "Anchoring",
+                "image": "anchoring.png"
+            }
+        ]
+    },
+    {
+        "event_type": "Stalls",
+        "events": [
+            {
+                "name": "Stalls",
+                "image": "stalls poster techcracy.png"
+            }
+        ]
+    },
+    {
+        "event_type": "Technical Rally",
+        "events": [
+            {
+                "name": "Technical Rally",
+                "image": "technical rally.png"
+            }
+        ]
+    },
+    {
+        "event_type": "Competition",
+        "events": [
+            {
+                "name": "Bridge Fabrication",
+                "image": "competition/bridge fabrication.png"
+            },
+            {
+                "name": "Wall Painting",
+                "image": "competition/wall painting.png"
+            }
+        ]
+    },
+
+    {
+        "event_type": "Exhibition",
+        "events": [
+            {
+                "name": "Dark Web",
+                "image": "exhibition/dark web.png"
+            }
+        ]
+    },
+    {
+        "event_type": "Workshop",
+        "events": [
+            {
+                "name": "Arduino",
+                "image": "workshop/arduino.png"
+            },
+            {
+                "name": "Drone Workshop",
+                "image": "workshop/drone workshop.png"
+            },
+            {
+                "name": "Food Safety Seminar",
+                "image": "workshop/food safety seminar.png"
+            },
+            {
+                "name": "VSLI",
+                "image": "workshop/vlsi.png"
+            }
+        ]
+    }
+]
