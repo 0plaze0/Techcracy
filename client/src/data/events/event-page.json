@@ -22,7 +22,7 @@
         "events": [
             {
                 "name": "Technical Rally",
-                "image": "technical rally.png"
+                "image": "techcracy rally.png"
             }
         ]
     },
@@ -31,11 +31,11 @@
         "events": [
             {
                 "name": "Bridge Fabrication",
-                "image": "competition/bridge fabrication.png"
+                "image": "competitions/bridge fabrication.png"
             },
             {
                 "name": "Wall Painting",
-                "image": "competition/wall painting.png"
+                "image": "competitions/wall painting.png"
             }
         ]
     },
@@ -54,19 +54,19 @@
         "events": [
             {
                 "name": "Arduino",
-                "image": "workshop/arduino.png"
+                "image": "workshops/arduino.png"
             },
             {
                 "name": "Drone Workshop",
-                "image": "workshop/drone workshop.png"
+                "image": "workshops/drone workshop.png"
             },
             {
                 "name": "Food Safety Seminar",
-                "image": "workshop/food safety seminar.png"
+                "image": "workshops/food safety seminar.png"
             },
             {
                 "name": "VSLI",
-                "image": "workshop/vlsi.png"
+                "image": "workshops/vlsi workshop.png"
             }
         ]
     }
