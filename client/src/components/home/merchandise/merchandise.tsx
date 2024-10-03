@@ -14,7 +14,9 @@ export default function Merchandise() {
                     />
                 </video>
             </div>
+            {/* <div></div> */}
             {/* <div className="merchandise_bottom"></div> */}
+            {/* <div className="sponsor">Sponsor</div> */}
         </>
     );
 }

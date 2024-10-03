@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+:root {
+    
+    --font:Aoboshi One;
+    
+    }
+.navbar_main{
+    width: 100%;
+    border: solid 1px;
+    height: 7vh;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(130, 128, 128);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+// margin-top: -8.6%;
+// margin-bottom: 14%;
+position: relative;
+bottom: 23.4%;
+}
+.navbar_1{
+    // border: solid 1px;
+    width: 33%;
+    height: 100%;
+}
+.logo{
+    // background-image:url("src/assets/cit-logo.png");
+    // border: solid 1px;
+    width: 13%;
+    margin-left: 1%;
+}
+.logo_img{
+    width: 87%;
+    position: relative;
+    bottom:3%;
+}
+.navbar_2{
+    width: 33%;
+    height: 100%;
+    // height: 100%;
+    // border: solid 1px;
+    
+}
+.navbar_3{
+    height: 100%;
+    // border: solid 1px;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1%;
+    align-items: center;
+}
+.event_1{
+border:solid 1px black;
+width:15%;
+height: 80%;
+margin-right: 2%;
+border-radius: 8px;
+background-color: #FF682F;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Aoboshi One';
+color: white;
+box-shadow: 3px 3px 1px #752204;
+
+}
+.team_1{
+    color: white;
+    font-family: 'Aoboshi One';
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    border:solid 1px black;
+    width:15%;
+    height: 80%;
+    background-color: #FF682F;
+    box-shadow: 3px 3px 1px #752204;
+}
+.journey_1{
+    color: white;
+    font-family: 'Aoboshi One';
+    background-color: #FF682F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border:solid 1px black;
+    width:15%;
+    height: 80%;
+    box-shadow: 3px 3px 1px #752204;
+
+}
