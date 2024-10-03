@@ -5,16 +5,16 @@ import {
     EventPage,
     AdminDashboard,
     AllEvent,
-    AllOrganizer,
-    Landing,
+    AllOrganizer,TeamPage, WebTeam
 } from "./pages";
 import { Carousel3D } from "./components";
 function App() {
     return (
         <Routes>
             <Route path="/">
-                <Route path="/" element={<Home />} />
-                <Route path="landing" element={<Landing />} />
+                <Route index element={<Home />} />
+                <Route path="team" element={<TeamPage />} />
+                <Route path="web-team" element={<WebTeam />} />
                 <Route path="3d" element={<Carousel3D />} />
                 <Route path="events" element={<EventPage />} />
                 <Route path="admin" element={<AdminDashboard />}>
