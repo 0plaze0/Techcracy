@@ -1,3 +1,48 @@
+@media (max-width: 1024px) {
+    .events-section {
+      height: 100vh;
+      padding: 20px;
+    }
+  
+    .insomnia, .exhibition, .competition, .lecture, .workshop {
+      width: 40%; /* Make images smaller for smaller screens */
+    }
+  
+    .event_summary, .highlights {
+      width: 80%;
+      font-size: 12px;
+    }
+  
+    .event_header {
+      font-size: 18px;
+      left: 40%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .events-section {
+      height: auto;
+    }
+  
+    .insomnia, .exhibition, .competition, .lecture, .workshop {
+      width: 50%;
+      top: auto;
+      left: auto;
+      transform: none;
+      animation: none;
+    }
+  
+    .event_summary, .highlights {
+      width: 90%;
+      font-size: 10px;
+    }
+  
+    .event_header {
+      font-size: 16px;
+      left: 35%;
+    }
+  }
+  
 .events-section {
     width: 100%;
     height: 120vh;
@@ -129,5 +174,15 @@ left: 46%;
     font-size: 14px;
     font-weight: 600;
     top: 55%;
+    left: 35%;
+}
+.highlights{
+    /* border: solid 1px; */
+    width: 30%;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight:700;
+    font-size: 23px;
+    position: relative;
     left: 35%;
 }

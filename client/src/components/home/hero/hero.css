@@ -1,3 +1,43 @@
+@media (max-width: 1024px) {
+    .hero-section {
+      height: 100vh;
+    }
+  
+    .techcracy {
+      top: 20%;
+      transform: scale(0.6);
+    }
+  
+    .summary {
+      font-size: 12px;
+      width: 60%;
+    }
+  
+    .event_button {
+      top: 35%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .techcracy {
+      top: 10%;
+      transform: scale(0.5);
+    }
+  
+    .summary {
+      font-size: 10px;
+      width: 70%;
+    }
+  
+    .event_button {
+      top: 30%;
+    }
+  
+    .tv_1, .tv_2, .tv_3 {
+      top: 15%;
+      transform: scale(0.7);
+    }
+  }
 .hero-section {
   /* position: absolute; */
   width: 100%;
@@ -90,3 +130,5 @@
   /* float: right; */
   animation: mario_run 5s linear infinite;
 }
+
+  

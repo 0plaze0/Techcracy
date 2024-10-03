@@ -2,6 +2,7 @@ import "./events.css";
 
 export default function Events() {
     return (
+        <>
         <section className="events-section">
             {/* <img
                 className="mario"
@@ -51,5 +52,7 @@ export default function Events() {
             <section className="event_header">Our events</section>
             <section className="event_summary">Techcracy 2024 features thrilling events like gaming tournaments technical competitions, workshops, lecture series, exhibition.</section>
         </section>
+            <p className="highlights">These are the main highlights of TECHCRACY 2024</p>
+        </>
     );
 }
