@@ -1,0 +1,108 @@
+{
+    "studentsBody": {
+        "ChiefConvenors": [
+            {
+                "name": "Kalpojyoti Koch",
+                "imageUrl": "Kalpojyoti Koch.png"
+            },
+            {
+                "name": "Anjali Ramchiary",
+                "imageUrl": "Anjali Ramchiary.png"
+            }
+        ],
+        "AsstConvenor": [
+            {
+                "name": "Dhanjit Boro",
+                "imageUrl": "Dhanjit Boro.png"
+            }
+        ],
+        "VolunteerHeads": [
+            {
+                "name": "Manas Pratim Baro",
+                "imageUrl": "Manas Pratim Baro.png"
+            },
+            {
+                "name": "Teresa Basumatary",
+                "imageUrl": "Teresa Basumatary.png"
+            }
+        ],
+        "TechnicalConvenors": [
+            {
+                "name": "Theophilas Chapar",
+                "imageUrl": "Theophilas Chapar.png"
+            },
+            {
+                "name": "Violina Buragohain",
+                "imageUrl": "Violina Buragohain.png"
+            }
+        ],
+        "AsstTechnicalConvenors": [
+            {
+                "name": "Pradip Panjiyar",
+                "imageUrl": "Pradip Panjiyar.png"
+            },
+            {
+                "name": "Shamim Shahinur Rahman",
+                "imageUrl": "Shamim Shahinur Rahman.png"
+            },
+            {
+                "name": "Sneha Kumari",
+                "imageUrl": "Sneha Kumari.png"
+            }
+        ],
+        "FinanceConvenors": [
+            {
+                "name": "Kaniska Brahma",
+                "imageUrl": "Kaniska Brahma.png"
+            },
+            {
+                "name": "Jesika Basumatary",
+                "imageUrl": "Jesika Basumatary.png"
+            }
+        ],
+        "PublicRelationsConvenors": {
+            "PublicityAndSponsors": [
+                {
+                    "name": "Rituraj Saikia",
+                    "imageUrl": "Rituraj Saikia.png"
+                },
+                {
+                    "name": "Kundalika Goswami",
+                    "imageUrl": "Kundalika Goswami.png"
+                }
+            ],
+            "SocialMediaAndWebsite": [
+                {
+                    "name": "Deep Baro",
+                    "imageUrl": "Deep Baro.png"
+                },
+                {
+                    "name": "Sheikh Marriah Rukhser",
+                    "imageUrl": "Sheikh Marriah Rukhser.png"
+                }
+            ]
+        },
+        "FoodingAndAccommodationConvenors": [
+            {
+                "name": "Marshal Basumatary",
+                "imageUrl": "Marshal Basumatary.png"
+            },
+            {
+                "name": "Diviya Basumatary",
+                "imageUrl": "Diviya Basumatary.png"
+            }
+        ],
+        "ManagementConvenors": {
+            "StageAndDecoration": [
+                {
+                    "name": "Swastayan Borah",
+                    "imageUrl": "Swastayan Borah.png"
+                },
+                {
+                    "name": "Deviya Rani Narzary",
+                    "imageUrl": "Deviya Rani Narzary.png"
+                }
+            ]
+        }
+    }
+}
