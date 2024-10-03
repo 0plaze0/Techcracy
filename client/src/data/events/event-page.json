@@ -4,7 +4,7 @@
         "events": [
             {
                 "name": "Anchoring",
-                "image": "anchoring/anchoring.png"
+                "image": "anchoring.png"
             }
         ]
     },
@@ -13,7 +13,7 @@
         "events": [
             {
                 "name": "Stalls",
-                "image": "stalls/stalls.png"
+                "image": "stalls poster techcracy.png"
             }
         ]
     },
@@ -22,7 +22,7 @@
         "events": [
             {
                 "name": "Technical Rally",
-                "image": "technical rally/technical rally.png"
+                "image": "technical rally.png"
             }
         ]
     },
