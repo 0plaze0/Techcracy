@@ -45,7 +45,7 @@ export default function Events() {
             <a href="">
                 <img
                     className="lecture"
-                    src="src\assets\lecture series.png"
+                    src="src/assets/lecture_series.png"
                     alt="image loading"
                 />
             </a>

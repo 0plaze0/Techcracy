@@ -146,6 +146,7 @@
     /* transform: rotate(-15deg); */
     z-index: 2;
     animation: pshrink 2.4s linear infinite;
+    /* background-color: transparent; */
 }
 .workshop {
     position: absolute;
