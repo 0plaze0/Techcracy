@@ -5,6 +5,38 @@
     --font:Aoboshi One;
     
     }
+
+@media (max-width: 1024px) {
+        .navbar_main {
+          height: 6vh;
+          justify-content: space-around;
+        }
+      
+        .logo {
+          width: 10%;
+        }
+      
+        .event_1, .team_1, .journey_1 {
+          width: 20%;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .navbar_main {
+          flex-direction: column;
+          height: auto;
+        }
+      
+        .logo {
+          width: 20%;
+        }
+      
+        .event_1, .team_1, .journey_1 {
+          width: 40%;
+          margin: 5px 0;
+        }
+      }
+      
 .navbar_main{
     width: 100%;
     border: solid 1px;
@@ -19,7 +51,7 @@
 // margin-top: -8.6%;
 // margin-bottom: 14%;
 position: relative;
-bottom: 23.4%;
+bottom: 22%;
 }
 .navbar_1{
     // border: solid 1px;

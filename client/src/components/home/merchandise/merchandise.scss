@@ -1,6 +1,25 @@
+@media (max-width: 1024px) {
+    .section4 {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .merchandise {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section4 {
+      flex-direction: column;
+    }
+  
+    .merchandise {
+      width: 100%;
+    }
+  }
 .section3 {
     background-color: #ffffff;
-
     z-index: 2;
 }
 .section4 {
