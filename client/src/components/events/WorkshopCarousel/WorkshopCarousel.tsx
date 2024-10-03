@@ -1,14 +1,12 @@
-// make ts not check for type errors when importing libraries
-// @ts-nocheck
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import "./WorkshopCarousel.scss";
 
-interface WorkshopCarouselProps {
-    images: string[];
-}
+import { EventProps } from "../../../types/event";
+export default function WorkshopCarousel({ events }: { events: EventProps[] }) {
+    const image_dir = "/assets/events/";
+    console.log(events);
 
-const WorkshopCarousel: React.FC<WorkshopCarouselProps> = ({ images }) => {
     return (
         <div className="carousel">
             <Splide
@@ -18,6 +16,8 @@ const WorkshopCarousel: React.FC<WorkshopCarouselProps> = ({ images }) => {
                     focus: "center",
                     pagination: false,
                     arrows: true,
+                    clones: 0,
+                    cloneStatus: false,
                     breakpoints: {
                         768: {
                             perPage: 1,
@@ -25,16 +25,19 @@ const WorkshopCarousel: React.FC<WorkshopCarouselProps> = ({ images }) => {
                     },
                 }}
             >
-                {images.map((image, index) => (
+                {events.map((event, index) => (
                     <SplideSlide key={index}>
                         <div className="carousel-item">
-                            <img src={image} alt={`Slide ${index}`} />
+                            <img
+                                src={`${image_dir}${event.image}`}
+                                alt={`${event.name}`}
+                            />
                         </div>
                     </SplideSlide>
                 ))}
             </Splide>
         </div>
     );
-};
+}
 
-export default WorkshopCarousel;
+// export default WorkshopCarousel;
