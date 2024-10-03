@@ -1,98 +1,133 @@
-body {
-    background: #000F;
-    color: #FFFA;
-    margin: 0;
-    width: 100vw;
-  }
-  
-  ol {
-    all: unset;
-    aspect-ratio: 1 / 1;
-    container-type: inline-size;
-    display: grid;
+.events-section {
     width: 100%;
-    place-items: center;
-  }
-  
-  li {
-    aspect-ratio: 1 / 1;
-    border: 1px dashed;
-    border-radius: 50%;
-    display: grid;
-    grid-area: 1 / 1;
-    place-self: center;
-    width: var(--d, 2cqi);
-  }
-  
-  li::after {
-    animation: rotate var(--t, 3s) linear infinite;
-    aspect-ratio: 1 / 1;
-    background: var(--b, hsl(0, 0%, 50%));
-    border-radius: 50%;
-    content: '';
-    display: block;
-    width: var(--w, 2cqi);
-  }
-  
-  @keyframes rotate {
-    to {
-      offset-distance: 1000%;
+    height: 120vh;
+    position: relative;
+    /* overflow: hidden; */
+    /* border: solid 1px; */
+}
+@keyframes mario_run {
+    0% {
+        transform: translateX(-10%);
     }
-  }
-  
-  /* Event-specific styles */
-  .insomnia {
-    --b: url("src/assets/imsomnia.png");
-    --d: 10cqi;
-    --w: 8cqi;
-    --t: 6000ms;
-  }
-  
-  .exhibition {
-    --b: url("src/assets/exibitions.png");
-    --d: 15cqi;
-    --t: 4000ms;
-    --w: 7cqi;
-  }
-  
-  .competition {
-    --b: url("src/assets/competitions.png");
-    --d: 20cqi;
-    --t: 8000ms;
-    --w: 6cqi;
-  }
-  
-  .workshop {
-    --b: url("src/assets/workshop.png");
-    --d: 25cqi;
-    --t: 10000ms;
-    --w: 7cqi;
-  }
-  
-  .lecture {
-    --b: url("src/assets/lecture series.png");
-    --d: 30cqi;
-    --t: 12000ms;
-    --w: 9cqi;
-  }
-  
-  .event-section-header {
+    100% {
+        transform: translateX(1000%);
+    }
+}
+.mario {
+    display: flex;
+    background-color: transparent;
     position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2rem;
-    color: white;
-  }
-  
-  .event-summary {
+    width: 10%;
+    z-index: 30;
+    top: -19%;
+    left: -30px;
+    /* float: right; */
+    animation: mario_run 5s linear infinite;
+}
+.soil {
     position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: -186px;
+    left: 0;
+    /* height:310%; */
+    width: 100%;
+    z-index: 1;
+}
+.insomnia {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    width: 22%;
+    transform: rotate(15deg);
+    z-index: 2;
+    animation: shrink 2.4s linear infinite;
+    /* transform: scale(1); */
+}
+@keyframes shrink {
+    0%,
+    100% {
+        transform: scale(0.8) rotate(12deg);
+        /* transform: rotate(12deg); */
+    }
+    50% {
+        transform: scale(1) rotate(15deg);
+        /* transform: rotate(15deg); */
+    }
+}
+@keyframes pshrink {
+    0%,
+    100% {
+        transform: scale(0.8) rotate(-12deg);
+        /* transform: rotate(12deg); */
+    }
+    50% {
+        transform: scale(1) rotate(-15deg);
+        /* transform: rotate(15deg); */
+    }
+}
+        @keyframes key {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+        
+                /* transform: translateX(100%); */
+            }
+        }
+.exhibition {
+    position: absolute;
+    top: 63%;
+    left: 12%;
+    width: 27%;
+    /* background-color: transparent; */
+    /* transform: rotate(5deg); */
+    z-index: 2;
+    animation: shrink 2.4s linear infinite;
+}
+.competition {
+    position: absolute;
+    top: 41%;
+    left: 72%;
+    width: 20%;
+    transform: rotate(-15deg);
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
+}
+.lecture {
+    position: absolute;
+    top: 68%;
+    left: 56%;
+    width: 23%;
+    /* transform: rotate(-15deg); */
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
+}
+.workshop {
+    position: absolute;
+    top: 13%;
+    left: 48.9%;
+    width: 22%;
+    transform: rotate(-15deg);
+    z-index: 2;
+    animation: pshrink 2.4s linear infinite;
+}
+.event_header{
+/* border: solid 1px; */
+position: absolute;
+text-align: center;
+font-weight: 600;
+font-size: 23px;
+font-family: DM Sans;
+left: 46%;
+}
+.event_summary{
+    font-family: DM Sans;
     text-align: center;
-    color: #FFFA;
-    width: 80%;
-  }
-  
-  
+    position: absolute;
+    /* border: solid 1px; */
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    top: 55%;
+    left: 35%;
+}

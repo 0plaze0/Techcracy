@@ -1,9 +1,14 @@
+import Navbar from "../../navbar/navbar";
 import "./hero.css";
+// import Navbar from "../../components/navbar/navbar";
 
 export default function Hero() {
     return (
         <>
             <section className="hero-section">
+            <Navbar />
+            {/* <Navbar></Navbar> */}
+
                 {/* <video className="tech_video" autoPlay muted loop playsInline>
                     <source
                         src="./assets/videos/techcracyVideo.mp4"
