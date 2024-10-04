@@ -1,5 +1,5 @@
 import Navbar from "../../navbar/navbar";
-
+import Sponsor from "../../../components/home/sponsor/sponsor";
 import "./teamArea.css";
 import { TeamCard } from "..";
 import { teamRoles } from "./../../../data/team/team"; // Student team data
@@ -11,7 +11,7 @@ const baseeImgUrl = "/assets/team/Faculty incharges/";
 const TeamArea = () => {
     return (
         <>
-        <Navbar />
+            <Navbar />
             {/* Faculty Section */}
             <section className="team-area section-padding">
                 <div className="container">
@@ -32,7 +32,9 @@ const TeamArea = () => {
                                     image={
                                         member.image === "null"
                                             ? "no image"
-                                            : `${baseeImgUrl}${encodeURIComponent(member.image.split(".")[0])}.jpg`
+                                            : `${baseeImgUrl}${encodeURIComponent(
+                                                  member.image.split(".")[0]
+                                              )}.jpg`
                                     } // Add real image path if available
                                 />
                             ))
@@ -71,6 +73,7 @@ const TeamArea = () => {
                     </div>
                 </div>
             </section>
+            <Sponsor />
         </>
     );
 };
