@@ -1,3 +1,5 @@
+import Navbar from "../../navbar/navbar";
+
 import "./teamArea.css";
 import { TeamCard } from "..";
 import { teamRoles } from "./../../../data/team/team"; // Student team data
@@ -9,12 +11,13 @@ const baseeImgUrl = "/assets/team/Faculty incharges/";
 const TeamArea = () => {
     return (
         <>
+        <Navbar />
             {/* Faculty Section */}
             <section className="team-area section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="section-title text-center">
+                            <div className="section-title-text-center">
                                 <h2>Faculty Incharges</h2>
                             </div>
                         </div>
@@ -43,9 +46,8 @@ const TeamArea = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="section-title text-center">
+                            <div className="section-title-text-center">
                                 <h2>Our Team</h2>
-                                <p>Meet our amazing student team</p>
                             </div>
                         </div>
                     </div>
