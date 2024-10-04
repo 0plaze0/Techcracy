@@ -1,22 +1,17 @@
 import "./hero.css";
 // import Navbar from "../../components/navbar/navbar";
+import techcracy from "./../../../assets/Full_logo_with_tag_black-removebg-preview.png";
+import eventButton from "./../../../assets/eventButton.png";
+import tv1 from "./../../../assets/tv-01.png";
+import tv2 from "./../../../assets/tv-02.png";
 
 export default function Hero() {
     return (
         <>
             <section className="hero-section">
-            {/* <Navbar /> */}
-            {/* <Navbar></Navbar> */}
-
-                {/* <video className="tech_video" autoPlay muted loop playsInline>
-                    <source
-                        src="./assets/videos/techcracyVideo.mp4"
-                        type="video/mp4"
-                    />
-                </video> */}
                 <img
                     className="techcracy"
-                    src="./assets/Full_logo_with_tag_black-removebg-preview.png"
+                    src={techcracy}
                     alt="image loading"
                 />
                 <section className="summary">
@@ -28,24 +23,12 @@ export default function Hero() {
                 </section>
                 <img
                     className="event_button"
-                    src="src/assets/eventButton.png"
+                    src={eventButton}
                     alt="image loading"
                 />
-                <img
-                    className="tv_1"
-                    src="src/assets/tv-01.png"
-                    alt="no loading"
-                ></img>
-                <img
-                    className="tv_2"
-                    src="src/assets/tv-02.png"
-                    alt="no loading"
-                ></img>
-                <img
-                    className="tv_3"
-                    src="src/assets/tv-01.png"
-                    alt="no loading"
-                ></img>
+                <img className="tv_1" src={tv1} alt="no loading"></img>
+                <img className="tv_2" src={tv2} alt="no loading"></img>
+                <img className="tv_3" src={tv1} alt="no loading"></img>
             </section>
             {/* <section className="hero_bottom"></section> */}
         </>
