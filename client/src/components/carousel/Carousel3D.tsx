@@ -7,8 +7,6 @@ import {
     poster4,
     poster5,
     poster6,
-    poster7,
-    poster8,
 } from "../../constants/Images";
 
 const Carousel3D: React.FC = () => {
@@ -36,7 +34,7 @@ const Carousel3D: React.FC = () => {
                     <div
                         className="slider"
                         ref={sliderRef}
-                        style={{ "--quantity": 8 } as React.CSSProperties}
+                        style={{ "--quantity": 6 } as React.CSSProperties}
                     >
                         <div
                             className="item"
@@ -73,18 +71,6 @@ const Carousel3D: React.FC = () => {
                             style={{ "--position": 6 } as React.CSSProperties}
                         >
                             <img src={poster6} alt="Dragon 1" />{" "}
-                        </div>
-                        <div
-                            className="item"
-                            style={{ "--position": 7 } as React.CSSProperties}
-                        >
-                            <img src={poster7} alt="Dragon 1" />{" "}
-                        </div>
-                        <div
-                            className="item"
-                            style={{ "--position": 8 } as React.CSSProperties}
-                        >
-                            <img src={poster8} alt="Dragon 1" />{" "}
                         </div>
                     </div>
                 </div>
