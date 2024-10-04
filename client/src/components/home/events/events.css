@@ -1,189 +1,258 @@
-@media (max-width: 1024px) {
-    .events-section {
-      height: 100vh;
-      padding: 20px;
-    }
-  
-    .insomnia, .exhibition, .competition, .lecture, .workshop {
-      width: 40%; /* Make images smaller for smaller screens */
-    }
-  
-    .event_summary, .highlights {
-      width: 80%;
-      font-size: 12px;
-    }
-  
-    .event_header {
-      font-size: 18px;
-      left: 40%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .events-section {
-      height: auto;
-    }
-  
-    .insomnia, .exhibition, .competition, .lecture, .workshop {
-      width: 50%;
-      top: auto;
-      left: auto;
-      transform: none;
-      animation: none;
-    }
-  
-    .event_summary, .highlights {
-      width: 90%;
-      font-size: 10px;
-    }
-  
-    .event_header {
-      font-size: 16px;
-      left: 35%;
-    }
-  }
-  
 .events-section {
-    width: 100%;
-    height: 120vh;
-    position: relative;
-    /* overflow: hidden; */
-    /* border: solid 1px; */
+  width: 100%;
+  height: 120vh;
+  position: relative;
 }
 @keyframes mario_run {
-    0% {
-        transform: translateX(-10%);
-    }
-    100% {
-        transform: translateX(1000%);
-    }
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(1000%);
+  }
 }
 .mario {
-    display: flex;
-    background-color: transparent;
-    position: absolute;
-    width: 10%;
-    z-index: 30;
-    top: -19%;
-    left: -30px;
-    /* float: right; */
-    animation: mario_run 5s linear infinite;
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  width: 10%;
+  z-index: 30;
+  top: -19%;
+  left: -30px;
+  animation: mario_run 5s linear infinite;
 }
 .soil {
-    position: absolute;
-    top: -186px;
-    left: 0;
-    /* height:310%; */
-    width: 100%;
-    z-index: 1;
+  position: absolute;
+  top: -186px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 .insomnia {
-    position: absolute;
-    top: 10%;
-    left: 12%;
-    width: 22%;
-    transform: rotate(15deg);
-    z-index: 2;
-    animation: shrink 2.4s linear infinite;
-    /* transform: scale(1); */
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  width: 22%;
+  transform: rotate(15deg);
+  z-index: 2;
+  animation: shrink 2.4s linear infinite;
 }
 @keyframes shrink {
-    0%,
-    100% {
-        transform: scale(0.8) rotate(12deg);
-        /* transform: rotate(12deg); */
-    }
-    50% {
-        transform: scale(1) rotate(15deg);
-        /* transform: rotate(15deg); */
-    }
+  0%,
+  100% {
+    transform: scale(0.6) rotate(12deg);
+  }
+  50% {
+    transform: scale(0.8) rotate(15deg);
+  }
 }
 @keyframes pshrink {
-    0%,
-    100% {
-        transform: scale(0.8) rotate(-12deg);
-        /* transform: rotate(12deg); */
-    }
-    50% {
-        transform: scale(1) rotate(-15deg);
-        /* transform: rotate(15deg); */
-    }
+  0%,
+  100% {
+    transform: scale(0.6) rotate(-12deg);
+  }
+  50% {
+    transform: scale(0.8) rotate(-15deg);
+  }
 }
-        @keyframes key {
-            from {
-                transform: translateX(0);
-            }
-            to {
-                transform: translateX(-100%);
-        
-                /* transform: translateX(100%); */
-            }
-        }
+@keyframes key {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 .exhibition {
-    position: absolute;
-    top: 63%;
-    left: 12%;
-    width: 27%;
-    /* background-color: transparent; */
-    /* transform: rotate(5deg); */
-    z-index: 2;
-    animation: shrink 2.4s linear infinite;
+  position: absolute;
+  top: 63%;
+  left: 12%;
+  width: 27%;
+  /* background-color: transparent; */
+  /* transform: rotate(5deg); */
+  z-index: 2;
+  animation: shrink 2.4s linear infinite;
 }
 .competition {
-    position: absolute;
-    top: 41%;
-    left: 72%;
-    width: 20%;
-    transform: rotate(-15deg);
-    z-index: 2;
-    animation: pshrink 2.4s linear infinite;
+  position: absolute;
+  top: 41%;
+  left: 72%;
+  width: 20%;
+  transform: rotate(-15deg);
+  z-index: 2;
+  animation: pshrink 2.4s linear infinite;
 }
 .lecture {
-    position: absolute;
-    top: 68%;
-    left: 56%;
-    width: 23%;
-    /* transform: rotate(-15deg); */
-    z-index: 2;
-    animation: pshrink 2.4s linear infinite;
-    /* background-color: transparent; */
+  position: absolute;
+  top: 68%;
+  left: 56%;
+  width: 23%;
+  /* transform: rotate(-15deg); */
+  z-index: 2;
+  animation: pshrink 2.4s linear infinite;
+  /* background-color: transparent; */
 }
 .workshop {
-    position: absolute;
-    top: 13%;
-    left: 48.9%;
-    width: 22%;
-    transform: rotate(-15deg);
-    z-index: 2;
-    animation: pshrink 2.4s linear infinite;
+  position: absolute;
+  top: 13%;
+  left: 48.9%;
+  width: 22%;
+  transform: rotate(-15deg);
+  z-index: 2;
+  animation: pshrink 2.4s linear infinite;
 }
-.event_header{
-/* border: solid 1px; */
-position: absolute;
-text-align: center;
-font-weight: 600;
-font-size: 23px;
-font-family: DM Sans;
-left: 46%;
+.event_header {
+  /* border: solid 1px; */
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: DM Sans;
+  left: 46%;
 }
-.event_summary{
-    font-family: DM Sans;
-    text-align: center;
-    position: absolute;
-    /* border: solid 1px; */
+.event_summary {
+  font-family: DM Sans;
+  text-align: center;
+  position: absolute;
+  /* border: solid 1px; */
+  width: 30%;
+  font-size: 21px;
+  font-weight: 600;
+  top: 53%;
+  left: 34%;
+}
+.highlights {
+  /* border: solid 1px; */
+  width: 30%;
+  text-align: center;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 23px;
+  position: relative;
+  left: 36%;
+  top: 100%;
+  color: white;
+}
+@media (max-width: 1024px) {
+  .events-section {
+    height: 50vh;
+    /* padding: 20px; */
+  }
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 22%; /* Make images smaller for smaller screens */
+  }
+  .insomnia {
+    top: 20%;
+  }
+
+  .event_summary,
+  .highlights {
     width: 30%;
+    font-size: 16px;
+  }
+  .event_summary {
+    top: 44%;
+  }
+
+  .event_header {
+    font-size: 29px;
+    left: 43%;
+  }
+}
+
+@media (max-width: 468px) {
+  .events-section {
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .event_header {
+    /* position: relative; */
+    left: 66%;
+  }
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 18%;
+    /* top: 10%; */
+    /* left: auto; */
+    transform: none;
+    /* animation: none; */
+    /* left: 10%; */
+  }
+  .insomnia {
+    top: 25%;
+  }
+  .workshop {
+    top: 21%;
+    left: 51%;
+  }
+  .exhibition {
+    top: 51%;
+    left: 17%;
+  }
+  .competition {
+    top: 41%;
+    left: 74%;
+  }
+  .lecture {
+    top: 57%;
+    left: 54%;
+  }
+
+  .event_summary,
+  .highlights {
+    width: 90%;
+    font-size: 7px;
+  }
+  .event_summary {
+    width: 30%;
+    left: 32%;
+    top: 38%;
     font-size: 14px;
-    font-weight: 600;
-    top: 55%;
-    left: 35%;
-}
-.highlights{
-    /* border: solid 1px; */
-    width: 30%;
-    text-align: center;
-    font-family: DM Sans;
-    font-weight:700;
-    font-size: 23px;
+  }
+  p.highlights {
+    display: flex;
     position: relative;
-    left: 35%;
+    top: 90%;
+    left: 28%;
+  }
+  .event_header {
+    font-size: 16px;
+    left: 39%;
+  }
+}
+
+@media (max-width: 768px) {
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 22%; /* Make images smaller for smaller screens */
+  }
+  .insomnia {
+    top: 20%;
+  }
+
+  .event_summary,
+  .highlights {
+    width: 30%;
+    font-size: 12px;
+  }
+  .event_summary {
+    top: 45%;
+  }
+
+  .event_header {
+    font-size: 18px;
+    left: 45%;
+  }
 }

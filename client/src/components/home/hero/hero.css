@@ -1,47 +1,8 @@
-@media (max-width: 1024px) {
-    .hero-section {
-      height: 100vh;
-    }
-  
-    .techcracy {
-      top: 20%;
-      transform: scale(0.6);
-    }
-  
-    .summary {
-      font-size: 12px;
-      width: 60%;
-    }
-  
-    .event_button {
-      top: 35%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .techcracy {
-      top: 10%;
-      transform: scale(0.5);
-    }
-  
-    .summary {
-      font-size: 10px;
-      width: 70%;
-    }
-  
-    .event_button {
-      top: 30%;
-    }
-  
-    .tv_1, .tv_2, .tv_3 {
-      top: 15%;
-      transform: scale(0.7);
-    }
-  }
+
 .hero-section {
   /* position: absolute; */
   width: 100%;
-  height: 128vh;
+  height: 100vh;
   /* border: solid 1px; */
   display: flex;
   justify-content: center;
@@ -62,13 +23,13 @@
   /* position: relative;*/
   /* display: flex; */
   /* align-items: center; */
-  top: 31%;
+  top: 21%;
 }
 .summary {
   font-size: 14px;
   position: relative;
   font-family: DM Sans;
-  top: 30%;
+  top: 23%;
   text-align: center;
   /* border: solid 1px; */
   width: 50%;
@@ -91,7 +52,7 @@
 }
 .tv_3 {
   position: relative;
-  top: 23%;
+  top: 21%;
   left: 8%;
   transform: rotate(55deg);
 }
@@ -130,5 +91,77 @@
   /* float: right; */
   animation: mario_run 5s linear infinite;
 }
-
+@media (max-width: 1024px) {
+    .hero-section {
+      height: 50vh;
+    }
+  
+    .summary {
+      font-size: 11px;
+      width: 70%;
+      top: 15%;
+    }
+  
+    .event_button {
+      top: 35%;
+    }
+    .techcracy {
+        top: 12%;
+        transform: scale(0.7);
+      }
+    
+      .summary {
+        font-size: 12px;
+        width: 70%;
+        top: 16%;
+      }
+    
+      .event_button {
+        top: 30%;
+      }
+    
+      .tv_1, .tv_2, .tv_3 {
+        top: 14%;
+        transform: scale(0.7);
+      }
+      .tv_2{
+          right: 30%;
+      }
+      .tv_3{
+          top: 4%;
+          left: 23%;
+      }
+  }
+  
+  @media (max-width: 400px) {
+    .techcracy {
+      top: 12%;
+      transform: scale(0.7);
+    }
+  
+    .summary {
+      font-size: 10px;
+      width: 70%;
+      top: 16%;
+    }
+  
+    .event_button {
+      top: 30%;
+    }
+  
+    .tv_1, .tv_2, .tv_3 {
+      top: 9%;
+      transform: scale(0.7);
+    }
+    .tv_2{
+        right: 23%;
+    }
+    .tv_3{
+        top: -3%;
+        left: 23%;
+    }
+    /* .tv_1{
+        display: none;
+    } */
+  }
   

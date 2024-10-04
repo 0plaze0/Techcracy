@@ -8,4 +8,3 @@ export { default as AllOrganizer } from "./admin/AllOrganizer";
 export { default as Landing } from "./main_back";
 export { default as Home } from "./home/HomePage";
 export { default as TeamPage } from "./team/TeamPage";
-export { default as WebTeam } from "./webTeam/WebTeam";
