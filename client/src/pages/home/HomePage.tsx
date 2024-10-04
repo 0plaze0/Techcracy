@@ -4,17 +4,16 @@ import Sponsor from "../../components/home/sponsor/sponsor";
 import Navbar from "../../components/navbar/navbar";
 
 export default function HomePage() {
-
   return (
     <main className="main_back_1">
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Events />
       <Carousel3D />
       <Merchandise />
       <Slider />
-      <Sponsor/>
+      {/* <Slider /> */}
+      <Sponsor />
     </main>
   );
-
 }

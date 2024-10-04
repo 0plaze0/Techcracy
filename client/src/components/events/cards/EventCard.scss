@@ -1,17 +1,5 @@
 :root {
-    --workshop-bg: linear-gradient(to right, #38ef7d, #11998e);
-    --lecture-bg: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
-    --exhibition-bg: linear-gradient(to right, #6dd5ed, #2193b0);
-}
-
-.workshop {
-    background: var(--workshop-bg);
-}
-
-.lecture {
-    background: var(--lecture-bg);
-}
-
-.exhibition {
-    background: var(--exhibition-bg);
+  --workshop-bg: linear-gradient(to right, #38ef7d, #11998e);
+  --lecture-bg: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  --exhibition-bg: linear-gradient(to right, #6dd5ed, #2193b0);
 }
