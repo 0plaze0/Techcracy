@@ -25,7 +25,7 @@ const TeamArea = () => {
                                 <TeamCard
                                     key={member.name}
                                     name={member.name}
-                                    role={`${member.designation}, ${member.department}`} // Faculty specific role
+                                    role={`${member.designation}`} // Faculty specific role
                                     image={
                                         member.image === "null"
                                             ? "no image"
