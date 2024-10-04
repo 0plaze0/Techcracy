@@ -3,7 +3,7 @@ import "./sponsor.scss";
 export default function Sponsor() {
   return (
     <div className="sponsor">
-      {/* <div className="Pankhi">Our Proud Sponsors</div> */}
+      <div className="Pankhi"></div>
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-content">
@@ -41,7 +41,7 @@ export default function Sponsor() {
               <p className="developed-by">
                 Developed by{" "}
                 <a href="https://webteamtechcracy.netlify.app/">
-                  Techcracy Web Team
+                 <b> Techcracy Web Team</b>
                 </a>
               </p>
               {/* <hr /> */}
