@@ -1,26 +1,8 @@
-@media (max-width: 1024px) {
-    .tilted-slider {
-      height: 6vh;
-    }
-  
-    .slider-slide {
-      width: 120%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .tilted-slider {
-      height: 5vh;
-    }
-  
-    .slider-slide {
-      width: 110%;
-    }
-  }
+
   
 .tilted-slider {
     width: 101%;
-    height: 4.5vh;
+    height:4.5vh;
     right: 0.3%;
     /* border: solid 1px; */
     z-index: 10;
@@ -67,3 +49,22 @@
     border-bottom: 6.9vw solid #2e2433;
     z-index: 2;
 }
+@media (max-width: 1024px) {
+    .tilted-slider {
+      height: 3vh;
+    }
+  
+    .slider-slide {
+      width: 120%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tilted-slider {
+      height: 2vh;
+    }
+  
+    .slider-slide {
+      width: 110%;
+    }
+  }
