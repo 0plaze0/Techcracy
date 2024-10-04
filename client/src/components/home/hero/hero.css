@@ -49,6 +49,7 @@
   top: 21.6%;
   right: 14%;
   transform: scale(0.9);
+  /* display: none; */
 }
 .tv_3 {
   position: relative;
@@ -93,39 +94,36 @@
 }
 @media (max-width: 1024px) {
     .hero-section {
-      height: 50vh;
+      height: 70vh;
     }
   
-    .summary {
-      font-size: 11px;
-      width: 70%;
-      top: 15%;
-    }
   
     .event_button {
-      top: 35%;
+      top: 40%;
     }
     .techcracy {
-        top: 12%;
+        top: 25%;
         transform: scale(0.7);
       }
-    
       .summary {
         font-size: 12px;
-        width: 70%;
-        top: 16%;
+        width: 76%;
+        top: 9%;
       }
     
       .event_button {
-        top: 30%;
+        top: 20%;
+        width: 30%;
       }
     
       .tv_1, .tv_2, .tv_3 {
         top: 14%;
         transform: scale(0.7);
+      display: none;
+
       }
       .tv_2{
-          right: 30%;
+          right: 40%;
       }
       .tv_3{
           top: 4%;
@@ -135,10 +133,12 @@
   
   @media (max-width: 400px) {
     .techcracy {
-      top: 12%;
+      top: 15%;
       transform: scale(0.7);
     }
-  
+  .hero-section{
+    height: 50vh;
+  }
     .summary {
       font-size: 10px;
       width: 70%;
@@ -147,11 +147,13 @@
   
     .event_button {
       top: 30%;
+      width: 30%;
     }
   
     .tv_1, .tv_2, .tv_3 {
       top: 9%;
       transform: scale(0.7);
+      display: none;
     }
     .tv_2{
         right: 23%;

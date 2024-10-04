@@ -135,7 +135,7 @@
 }
 @media (max-width: 1024px) {
   .events-section {
-    height: 50vh;
+    height: 100vh;
     /* padding: 20px; */
   }
   .insomnia,
@@ -143,7 +143,7 @@
   .competition,
   .lecture,
   .workshop {
-    width: 22%; /* Make images smaller for smaller screens */
+    width: 28%; /* Make images smaller for smaller screens */
   }
   .insomnia {
     top: 20%;
@@ -151,22 +151,24 @@
 
   .event_summary,
   .highlights {
-    width: 30%;
-    font-size: 16px;
+    width: 20%;
+    font-size: 12px;
   }
   .event_summary {
-    top: 44%;
+    top: 46%;
+    left: 30%;
+    width: 40%;
   }
 
   .event_header {
     font-size: 29px;
-    left: 43%;
+    left: 42%;
   }
 }
 
 @media (max-width: 468px) {
   .events-section {
-    height: 30vh;
+    height: 50vh;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -213,10 +215,10 @@
     font-size: 7px;
   }
   .event_summary {
-    width: 30%;
+    width: 20%;
     left: 32%;
     top: 38%;
-    font-size: 14px;
+    font-size: 11px;
   }
   p.highlights {
     display: flex;
@@ -236,23 +238,44 @@
   .competition,
   .lecture,
   .workshop {
-    width: 22%; /* Make images smaller for smaller screens */
+    width: 28%;
+     /* Make images smaller for smaller screens */
   }
   .insomnia {
-    top: 20%;
+    top: 24%;
+    left: 7%;
   }
-
+  .exhibition{
+    left: 14%;
+    top: 57%;
+  }
+  .lecture{
+    left: 55%;
+    top: 60%;
+  }
+  .competition{
+    left: 70%;
+  }
   .event_summary,
-  .highlights {
-    width: 30%;
-    font-size: 12px;
+  .highlights{
+    width: 34%;
+    font-size: 8px;
+  }
+  .highlights{
+    margin-top: 20%;
+    position: relative;
+    /* right: 0%; */
+    /* width: 100%; */
+    color: aliceblue;
+    /* left: 10%; */
+    margin-left: 7%;
   }
   .event_summary {
     top: 45%;
+    left: 35%;
   }
-
   .event_header {
     font-size: 18px;
-    left: 45%;
+    left: 38%;
   }
 }

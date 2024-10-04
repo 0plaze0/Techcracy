@@ -173,38 +173,6 @@
   }
 }
 @media (max-width: 790px) {
-    .navbar_main {
-      flex-direction: row;
-      height: 5%;
-      bottom: 22%;
-    }
-    .logo {
-      width: 35%;
-      margin-left: 0%;
-      margin-top: 10%;
-    }
-    .event_1,
-    .team_1,
-    .journey_1 {
-      width: 40%;
-      margin-left: 3%;
-    }
-    .navbar_2 {
-      width: 10%;
-      height: 100%;
-    }
-    .navbar_3 {
-      width: 40%;
-    }
-    .event_1,
-    .journey_1,
-    .team_1 {
-      width: 45%;
-      font-size: 14px;
-      height: 70%;
-    }
-  }
-@media (max-width: 790px) {
   .navbar_main {
     flex-direction: row;
     height: 5%;
@@ -245,9 +213,9 @@
   .navbar_main {
     width: 100%;
     border: solid 1px;
-    height: 4%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    height: 60px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: white;
     box-shadow: 1px 1px 10px rgb(130, 128, 128);
     display: flex;
@@ -258,9 +226,9 @@
     // height: 100px;
   }
   .logo {
-    width: 35%;
+    width: 25%;
     margin-left: 10%;
-    margin-top: 13%;
+    margin-top: 6.3%;
   }
   .event_1,
   .team_1,
@@ -274,6 +242,7 @@
   }
   .navbar_3 {
     width: 40%;
+    height: 70%;
     padding-right: 4%;
   }
   .event_1,
