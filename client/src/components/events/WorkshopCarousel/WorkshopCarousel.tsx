@@ -5,7 +5,6 @@ import "./WorkshopCarousel.scss";
 import { EventProps } from "../../../types/event";
 export default function WorkshopCarousel({ events }: { events: EventProps[] }) {
     const image_dir = "/assets/events/";
-    console.log(events);
 
     return (
         <div className="carousel">
@@ -15,7 +14,7 @@ export default function WorkshopCarousel({ events }: { events: EventProps[] }) {
                     perPage: 4,
                     focus: "center",
                     pagination: false,
-                    arrows: true,
+                    arrows: events.length > 1,
                     clones: 0,
                     cloneStatus: false,
                     breakpoints: {

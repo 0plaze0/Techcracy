@@ -1,5 +1,3 @@
-
-
 .events-section {
   width: 100%;
   height: 120vh;
@@ -135,131 +133,125 @@
   top: 100%;
 }
 @media (max-width: 1024px) {
-    .events-section {
-      height: 50vh;
-      /* padding: 20px; */
-    }
-    .insomnia,
-    .exhibition,
-    .competition,
-    .lecture,
-    .workshop {
-      width: 22%; /* Make images smaller for smaller screens */
-    }
-    .insomnia{
-        top: 20%;
-    }
-  
-    .event_summary,
-    .highlights {
-      width: 30%;
-      font-size: 16px;
-    }
-    .event_summary{
-        top: 44%;
-    }
-  
-    .event_header {
-      font-size: 29px;
-      left: 43%;
-    }
+  .events-section {
+    height: 50vh;
+    /* padding: 20px; */
   }
-  
-  @media (max-width: 468px) {
-    .events-section {
-        height: 30vh;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-    .event_header{
-        /* position: relative; */
-        left: 66%;
-    }
-    .insomnia,
-    .exhibition,
-    .competition,
-    .lecture,
-    .workshop {
-      width: 18%;
-      /* top: 10%; */
-      /* left: auto; */
-      transform: none;
-      /* animation: none; */
-      /* left: 10%; */
-    }
-    .insomnia{
-        top: 25%;
-    }
-    .workshop{
-        top:21%;
-        left: 51%;
-    }
-    .exhibition{
-        top: 51%;
-        left:17%;
-    }
-    .competition{
-        top: 41%;
-        left: 74%;
-    }
-    .lecture{
-        top: 57%;
-        left: 54%;
-    }
-    
-    .event_summary,
-    .highlights {
-      width: 90%;
-      font-size: 7px;
-    }
-    .event_summary{
-        width: 30%;
-        left: 32%;
-        top: 38%;
-        font-size: 14px;
-    }
-     p.highlights{
-      display: flex;
-        position: relative;
-        top: 90%;
-        left: 28%;
-     }
-    .event_header {
-      font-size: 16px;
-      left: 39%;
-    }
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 22%; /* Make images smaller for smaller screens */
   }
-   
-  @media (max-width: 768px) {
-    .events-section {
-        /* height: auto; */
-        /* padding: 20px; */
-      }
-    
-      .insomnia,
-      .exhibition,
-      .competition,
-      .lecture,
-      .workshop {
-        width: 22%; /* Make images smaller for smaller screens */
-      }
-      .insomnia{
-          top: 20%;
-      }
-    
-      .event_summary,
-      .highlights {
-        width: 30%;
-        font-size: 12px;
-      }
-      .event_summary{
-        top: 45%;
-      }
-    
-      .event_header {
-        font-size: 18px;
-        left: 45%;
-      }
-    
+  .insomnia {
+    top: 20%;
   }
+
+  .event_summary,
+  .highlights {
+    width: 30%;
+    font-size: 16px;
+  }
+  .event_summary {
+    top: 44%;
+  }
+
+  .event_header {
+    font-size: 29px;
+    left: 43%;
+  }
+}
+
+@media (max-width: 468px) {
+  .events-section {
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .event_header {
+    /* position: relative; */
+    left: 66%;
+  }
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 18%;
+    /* top: 10%; */
+    /* left: auto; */
+    transform: none;
+    /* animation: none; */
+    /* left: 10%; */
+  }
+  .insomnia {
+    top: 25%;
+  }
+  .workshop {
+    top: 21%;
+    left: 51%;
+  }
+  .exhibition {
+    top: 51%;
+    left: 17%;
+  }
+  .competition {
+    top: 41%;
+    left: 74%;
+  }
+  .lecture {
+    top: 57%;
+    left: 54%;
+  }
+
+  .event_summary,
+  .highlights {
+    width: 90%;
+    font-size: 7px;
+  }
+  .event_summary {
+    width: 30%;
+    left: 32%;
+    top: 38%;
+    font-size: 14px;
+  }
+  p.highlights {
+    display: flex;
+    position: relative;
+    top: 90%;
+    left: 28%;
+  }
+  .event_header {
+    font-size: 16px;
+    left: 39%;
+  }
+}
+
+@media (max-width: 768px) {
+  .insomnia,
+  .exhibition,
+  .competition,
+  .lecture,
+  .workshop {
+    width: 22%; /* Make images smaller for smaller screens */
+  }
+  .insomnia {
+    top: 20%;
+  }
+
+  .event_summary,
+  .highlights {
+    width: 30%;
+    font-size: 12px;
+  }
+  .event_summary {
+    top: 45%;
+  }
+
+  .event_header {
+    font-size: 18px;
+    left: 45%;
+  }
+}
