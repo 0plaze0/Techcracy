@@ -13,7 +13,7 @@ export default function HomePage() {
       <Merchandise />
       <Slider />
       {/* <Slider /> */}
-      <Sponsor />
+      {/* <Sponsor /> */}
     </main>
   );
 }
