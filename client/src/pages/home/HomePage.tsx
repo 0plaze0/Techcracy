@@ -4,6 +4,7 @@ import Sponsor from "../../components/home/sponsor/sponsor";
 import Navbar from "../../components/navbar/navbar";
 
 export default function HomePage() {
+
   return (
     <main className="main_back_1">
       <Navbar/>
@@ -15,4 +16,5 @@ export default function HomePage() {
       <Sponsor/>
     </main>
   );
+
 }
