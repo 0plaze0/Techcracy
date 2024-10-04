@@ -1,4 +1,4 @@
-import "./events.css";
+import "./events.scss";
 
 export default function Events() {
     return (

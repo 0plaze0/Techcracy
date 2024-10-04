@@ -1,4 +1,4 @@
-import "./hero.css";
+import "./hero.scss";
 // import Navbar from "../../components/navbar/navbar";
 
 export default function Hero() {
