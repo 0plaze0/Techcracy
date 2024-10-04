@@ -7,6 +7,7 @@ interface TeamCardProps {
 }
 
 export default function TeamCard({ name, role, image }: TeamCardProps) {
+
     return (
         <div className="col-md-4 single-item col-lg-3">
             <div className="item">
