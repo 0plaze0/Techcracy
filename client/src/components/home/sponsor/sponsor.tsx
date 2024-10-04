@@ -34,12 +34,11 @@ export default function Sponsor() {
                         <div className="divider-icon">
                             <img src="src\assets\logo_tech.png" alt="Divider Icon" />
                         </div>
-                        <p className="developed-by">Developed by ..........</p>
+                        <p className="developed-by">Developed by <a href="https://webteamtechcracy.netlify.app/">Techcracy Web Team</a></p>
                         {/* <hr /> */}
                         <div className="h_rule"></div>
                         <p className="copyright">© Techcracy24'</p>
                     </div>
-
                     {/* Right Section: Event Information */}
                     <div className="footer-right">
                         <div className="sponsor-logo">

@@ -47,6 +47,9 @@
 
 // Responsive Design
 @media screen and (max-width: 1023px) {
+    .carousel-container{
+        height: 90vh;
+    }
     .banner .slider {
         width: 160px;
         height: 200px;
@@ -66,6 +69,9 @@
         width: 100px;
         height: 150px;
         left: calc(50% - 50px);
+    }
+    .carousel-container{
+        height: 60vh;
     }
 
     .banner .slider .item {
