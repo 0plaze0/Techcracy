@@ -1,5 +1,8 @@
 import "./teamArea.css";
 import { TeamCard } from "..";
+import { teamRoles } from "./../../../data/team/team";
+
+const baseImgUrl = "/assets/team/compressed new/";
 interface TeamMember {
     name: string;
     role: string;
@@ -11,39 +14,7 @@ interface TeamRoles {
     members: TeamMember[];
 }
 
-interface Team {
-    roles: TeamRoles[];
-}
-
-const teamData: Team = {
-    roles: [
-        {
-            role: "Developers",
-            members: [
-                {
-                    name: "Alice Smith",
-                    role: "Frontend Developer",
-                    image: "https://example.com/images/alice.jpg",
-                },
-                {
-                    name: "Bob Johnson",
-                    role: "Backend Developer",
-                    image: "https://example.com/images/bob.jpg",
-                },
-            ],
-        },
-        {
-            role: "Designers",
-            members: [
-                {
-                    name: "Charlie Brown",
-                    role: "UI/UX Designer",
-                    image: "https://example.com/images/charlie.jpg",
-                },
-            ],
-        },
-    ],
-};
+const teamData = teamRoles;
 
 export default function TeamArea() {
     return (
@@ -58,9 +29,20 @@ export default function TeamArea() {
                     </div>
                 </div>
                 <div className="row">
-                    {teamData.roles.map((role) =>
+                    {teamData.map((role) =>
                         role.members.map((member) => (
-                            <TeamCard key={member.name} member={member} />
+                            <TeamCard
+                                key={member.name}
+                                name={member.name}
+                                role={member.role}
+                                image={
+                                    member.image == "null"
+                                        ? "no image"
+                                        : `${baseImgUrl}/${
+                                              member.image.split(".")[0]
+                                          }-min.png`
+                                }
+                            />
                         ))
                     )}
                 </div>
