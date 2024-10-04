@@ -131,6 +131,7 @@
   position: relative;
   left: 36%;
   top: 100%;
+  color: white;
 }
 @media (max-width: 1024px) {
   .events-section {
