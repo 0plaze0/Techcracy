@@ -5,7 +5,8 @@ export default function Hero() {
     return (
         <>
             <section className="hero-section">
-                {/* <Navbar></Navbar> */}
+            {/* <Navbar /> */}
+            {/* <Navbar></Navbar> */}
 
                 {/* <video className="tech_video" autoPlay muted loop playsInline>
                     <source
