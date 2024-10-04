@@ -3,16 +3,16 @@ import { TeamCard } from "..";
 import { teamRoles } from "./../../../data/team/team";
 
 const baseImgUrl = "/assets/team/compressed new/";
-interface TeamMember {
-    name: string;
-    role: string;
-    image: string;
-}
+// interface TeamMember {
+//     name: string;
+//     role: string;
+//     image: string;
+// }
 
-interface TeamRoles {
-    role: string;
-    members: TeamMember[];
-}
+// interface TeamRoles {
+//     role: string;
+//     members: TeamMember[];
+// }
 
 const teamData = teamRoles;
 
