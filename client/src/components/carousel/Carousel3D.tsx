@@ -1,6 +1,15 @@
 import "./Carousel3D.scss";
-import poster from "./../../assets/poster.jpeg";
 import React, { useEffect, useRef } from "react";
+import {
+    poster1,
+    poster2,
+    poster3,
+    poster4,
+    poster5,
+    poster6,
+    poster7,
+    poster8,
+} from "../../constants/Images";
 
 const Carousel3D: React.FC = () => {
     const sliderRef = useRef<HTMLDivElement>(null);
@@ -27,67 +36,55 @@ const Carousel3D: React.FC = () => {
                     <div
                         className="slider"
                         ref={sliderRef}
-                        style={{ "--quantity": 10 } as React.CSSProperties}
+                        style={{ "--quantity": 8 } as React.CSSProperties}
                     >
                         <div
                             className="item"
                             style={{ "--position": 1 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />
+                            <img src={poster1} alt="Dragon 1" />
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 2 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />
+                            <img src={poster2} alt="Dragon 1" />
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 3 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
+                            <img src={poster3} alt="Dragon 1" />{" "}
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 4 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
+                            <img src={poster4} alt="Dragon 1" />{" "}
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 5 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
+                            <img src={poster5} alt="Dragon 1" />{" "}
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 6 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
+                            <img src={poster6} alt="Dragon 1" />{" "}
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 7 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
+                            <img src={poster7} alt="Dragon 1" />{" "}
                         </div>
                         <div
                             className="item"
                             style={{ "--position": 8 } as React.CSSProperties}
                         >
-                            <img src={poster} alt="Dragon 1" />{" "}
-                        </div>
-                        <div
-                            className="item"
-                            style={{ "--position": 9 } as React.CSSProperties}
-                        >
-                            <img src={poster} alt="Dragon 1" />{" "}
-                        </div>
-                        <div
-                            className="item"
-                            style={{ "--position": 10 } as React.CSSProperties}
-                        >
-                            <img src={poster} alt="Dragon 1" />
+                            <img src={poster8} alt="Dragon 1" />{" "}
                         </div>
                     </div>
                 </div>

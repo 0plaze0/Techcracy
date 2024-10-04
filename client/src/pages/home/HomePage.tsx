@@ -4,18 +4,16 @@ import { Hero, Events, Slider, Merchandise } from "../../components/home";
 // import Navbar from "../../components/navbar/navbar";
 
 export default function HomePage() {
-
-  return (
-    <main className="main_back_1">
-      <Hero />
-      {/* <Navbar/> */}
-      <Events />
-      <Carousel3D />
-      <Merchandise />
-      <Slider />
-      {/* <Slider /> */}
-      <Sponsor/>
-    </main>
-  );
-
+    return (
+        <main className="main_back_1">
+            <Hero />
+            {/* <Navbar/> */}
+            <Events />
+            <Carousel3D />
+            <Merchandise />
+            <Slider />
+            {/* <Slider /> */}
+            {/* <Sponsor/> */}
+        </main>
+    );
 }
