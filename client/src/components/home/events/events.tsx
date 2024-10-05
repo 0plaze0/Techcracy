@@ -1,4 +1,3 @@
-
 import "./events.scss";
 import imsomia from "./../../../assets/imsomnia.png";
 import exhibitions from "./../../../assets/exibitions.png";

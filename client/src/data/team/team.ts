@@ -91,7 +91,7 @@ export const teamRoles: TeamRoles[] = [
             {
                 name: "Rituraj Saikia",
                 role: "Publicity and Sponsor Convenor",
-                image: "null",
+                image: "Rituraj Saikia.png",
             },
             {
                 name: "Kundalika Goswami",
@@ -121,7 +121,7 @@ export const teamRoles: TeamRoles[] = [
             {
                 name: "Marshal Basumatary",
                 role: "Fooding and Accommodation Convenor",
-                image: "null",
+                image: "Marshal Basumatary.png",
             },
             {
                 name: "Diviya Basumatary",
