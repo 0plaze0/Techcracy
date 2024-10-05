@@ -4,6 +4,7 @@
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    border-radius: 10px;
 }
 
 .team-area .info {
@@ -60,6 +61,7 @@
 .team-area .item .thumb img {
     transition: all 0.35s ease-in-out;
     height: auto;
+    /* aspect-ratio: 4.2/5; */
     width: 100%;
 }
 

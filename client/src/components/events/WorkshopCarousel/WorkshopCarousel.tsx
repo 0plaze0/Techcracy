@@ -17,6 +17,7 @@ export default function WorkshopCarousel({ events }: { events: EventProps[] }) {
                     arrows: events.length > 1,
                     clones: 0,
                     cloneStatus: false,
+                    lazyLoad: false,
                     breakpoints: {
                         768: {
                             perPage: 1,
