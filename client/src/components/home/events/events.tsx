@@ -1,13 +1,9 @@
-<!-- <<<<<<< main -->
 import "./events.scss";
-=======
-<!-- import "./events.css"; -->
 import imsomia from "./../../../assets/imsomnia.png";
 import exhibitions from "./../../../assets/exibitions.png";
 import competitions from "./../../../assets/competitions.png";
 import workshop from "./../../../assets/workshop.png";
 import lecture from "./../../../assets/lecture_series.png";
-<!-- >>>>>>> main -->
 
 export default function Events() {
     return (
