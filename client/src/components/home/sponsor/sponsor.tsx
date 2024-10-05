@@ -16,7 +16,7 @@ export default function Sponsor() {
                             <div className="social-icons">
                                 <p>Follow us:</p>
                                 <div className="Saloi143">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/techcracy.citk/">
                                         <img src={insta} alt="Mail" />
                                     </a>
                                     <a className="mail" href="#">
@@ -27,7 +27,7 @@ export default function Sponsor() {
                             </div>
                             <div className="contact-info">
                                 <p>Contact Us:</p>
-                                <br />
+                                {/* <br /> */}
                                 <address>
                                     Central Institute of Technology, Kokrajhar{" "}
                                     <br />
