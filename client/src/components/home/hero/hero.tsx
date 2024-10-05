@@ -1,4 +1,4 @@
-import "./hero.css";
+import "./hero.scss";
 // import Navbar from "../../components/navbar/navbar";
 import techcracy from "./../../../assets/Full_logo_with_tag_black-removebg-preview.png";
 import eventButton from "./../../../assets/eventButton.png";

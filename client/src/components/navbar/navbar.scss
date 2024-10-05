@@ -5,7 +5,7 @@
 .navbar_main {
   width: 100%;
   border: solid 1px;
-  height: 8%;
+  height: 10%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
@@ -22,8 +22,9 @@
   // border: solid 1px;
 }
 .logo {
-  width: 10%;
-  margin-left: 1%;
+  width: 9%;
+  margin-left: 6%;
+  padding: 3px;
 }
 .logo_img {
   width: 87%;
@@ -37,18 +38,18 @@
 }
 .navbar_3 {
   // border: solid 1px;
-  // height: 100%;
+//   height: 110%;
   width: 33%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 1%;
+  padding-right: 2.5%;
   align-items: center;
 }
 .event_1 {
   border: solid 1px black;
   width: 15%;
-  height: 80%;
+  height: 70%;
   margin-right: 2%;
   border-radius: 8px;
   background-color: #ff682f;
@@ -69,7 +70,7 @@
   margin-right: 2%;
   border: solid 1px black;
   width: 15%;
-  height: 80%;
+  height: 70%;
   background-color: #ff682f;
   box-shadow: 3px 3px 1px #752204;
 }
@@ -83,12 +84,12 @@
   border-radius: 8px;
   border: solid 1px black;
   width: 15%;
-  height: 80%;
+  height: 70%;
   box-shadow: 3px 3px 1px #752204;
 }
-@media (max-width: 2024px) {
+@media (max-width: 1224px) {
   .navbar_main {
-    height: 7%;
+    height: 1%;
     justify-content: space-around;
   }
   .logo {
