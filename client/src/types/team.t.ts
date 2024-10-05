@@ -2,6 +2,7 @@ export interface FacultyMember {
     name: string;
     designation: string;
     department: string;
+    image: string;
 }
 
 export interface FacultyRoles {
