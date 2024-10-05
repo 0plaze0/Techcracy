@@ -27,7 +27,7 @@ export default function Sponsor() {
                             </div>
                             <div className="contact-info">
                                 <p>Contact Us:</p>
-                                <br />
+                                {/* <br /> */}
                                 <address>
                                     Central Institute of Technology, Kokrajhar{" "}
                                     <br />

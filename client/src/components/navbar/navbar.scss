@@ -94,8 +94,6 @@
   }
   .logo {
     width: auto;
-    // height: auto;
-    // border: solid 1px;
   }
   .event_1,
   .team_1,
@@ -103,18 +101,14 @@
     width: 20%;
   }
   .navbar_3 {
-    // height: 195%;
     width: 34%;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-end;
     padding-right: 2%;
-    // align-items: center;
   }
   .logo {
     width: 18%;
     margin-left: 5%;
     width: 16%;
+    // top: 100%;
   }
   .logo_img {
     width: 85%;
@@ -122,87 +116,60 @@
     bottom: 3%;
   }
   .event_1 {
-    // border:solid 1px black;
     width: 22%;
     height: 80%;
     margin-right: 3%;
-    // border-radius: 8px;
-    // background-color: #FF682F;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // font-family: 'Aoboshi One';
-    // color: white;
-    // box-shadow: 3px 3px 1px #752204;
   }
   .navbar_3 {
       width: 40%;
       margin-top: 5px;
       height: 95px;
     display: flex;
-    // flex-direction: row;
-    // justify-content: flex-end;
     padding-right: 2%;
     align-items: center;
   }
   .team_1 {
-    // color: white;
-    // font-family: 'Aoboshi One';
-    // border-radius: 8px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     margin-right: 3%;
-    // border:solid 1px black;
     width: 22%;
     height: 80%;
-    // background-color: #FF682F;
-    // box-shadow: 3px 3px 1px #752204;
   }
   .journey_1 {
-    // color: white;
-    // font-family: 'Aoboshi One';
-    // background-color: #FF682F;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // border-radius: 8px;
-    // border:solid 1px black;
     width: 22%;
     height: 80%;
-    // box-shadow: 3px 3px 1px #752204;
   }
 }
 @media (max-width: 790px) {
   .navbar_main {
     flex-direction: row;
-    height: 5%;
+    height: 60px;
     bottom: 22%;
   }
   .logo {
-    width: 35%;
-    margin-left: 0%;
-    margin-top: 6%;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 1%;
+    // top: 10%;
   }
   .event_1,
   .team_1,
   .journey_1 {
     width: 40%;
-    margin-left: 3%;
+    margin-left: 1%;
+    width: 22%;
+    font-size: 10px;
+    height: 62%;
   }
   .navbar_2 {
     width: 10%;
     height: 100%;
   }
   .navbar_3 {
-    width: 40%;
-  }
-  .event_1,
-  .journey_1,
-  .team_1 {
-    width: 45%;
-    font-size: 14px;
-    height: 70%;
+    width: 30%;
+    height: 100%;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    padding-right: 0px;
+    // top: 1%;
   }
 }
 
@@ -229,7 +196,8 @@
   .logo {
     // width: 25%;
     margin-left: 10%;
-    margin-top: 0.3%;
+    margin-top: 2.4%;
+    width: 32%;
   }
   .event_1,
   .team_1,
@@ -245,14 +213,18 @@
     width: 40%;
     height: 70%;
     padding-right: 4%;
+    // padding-top: 10px;
   }
   .event_1,
   .journey_1,
   .team_1 {
     width: 45%;
     font-size: 8px;
-    height: 70%;
+    height: 90%;
+    position: relative;
+    top: 9px;
   }
+
 }
 @media (max-width: 400px) {
     .navbar_main {
@@ -285,6 +257,9 @@
     .journey_1 {
       width: 40%;
       margin-left: 3%;
+      margin-top: 1%;
+    //   padding-top: 10px;
+    //   heig;
     }
     .navbar_2 {
       width: 10%;
@@ -294,7 +269,7 @@
       width: 40%;
     //   height: 100%;
       padding-right: 4%;
-      margin-top: 3px;
+      margin-top: 3.6px;
     }
     
     .event_1,
@@ -302,7 +277,64 @@
     .team_1 {
       width: 55%;
       font-size: 8px;
+      height: 120%;
+    }
+  }
+  
+  @media (max-width: 385px) {
+    .navbar_main {
+      flex-direction: row;
+      height: 38px;
+    }
+    .navbar_main {
+      width: 100%;
+      border: solid 1px;
+    //   height: 10%;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: white;
+      box-shadow: 1px 1px 10px rgb(130, 128, 128);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+      bottom: 19.8%;
+      // height: 100px;
+    }
+    .logo{
+
+      width: 25%;
+    //   margin-left: 10%;
+    //   margin-top: 13%;
+    }
+    .event_1,
+    .team_1,
+    .journey_1 {
+      width: 40%;
+      margin-left: 3%;
+      margin-top: 1%;
+    //   padding-top: 10px;
+    //   heig;
+    }
+    .navbar_2 {
+      width: 10%;
       height: 90%;
+    }
+    .navbar_3 {
+      width: 40%;
+    //   height: 100%;
+      padding-right: 4%;
+      margin-top: 0px;
+    }
+    
+    .event_1,
+    .journey_1,
+    .team_1 {
+      width: 55%;
+      font-size: 8px;
+      height: 120%;
+      position: relative;
+      top: 20%;
     }
   }
   

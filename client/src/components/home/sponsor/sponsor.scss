@@ -195,16 +195,18 @@ flex-direction: row;
 @media (max-width: 768px) {
     .footer {
         width: 90%;
-        height: 25%;
-      padding: 10px 5px;
-      border-radius: 35px 35px 0 0; /* Rounded top corners */
-      top: 39%;
+        height: 54%;
+        padding: 10px 5px;
+        border-radius: 35px 35px 0 0; /* Rounded top corners */
+        top: 29%;
     }
     .footer-left{
         width: 60%;
-        font-size: 0.25rem;
+        font-size: 0.46rem;
         position: relative;
         left: 4%;
+        // top: 10%;
+        padding-top:23px;
     }
     .footer-middle{
             position: relative;
@@ -217,11 +219,13 @@ flex-direction: row;
     .sponsor-logo img {
       width: 25%;
       left: 33%;
+    //   top: 20%;
     //   font-size: 0.2rem;
     }
     .event-description {
-      font-size: 0.3rem;
+      font-size: 0.45rem;
       top: 10%;
+      width: 80%;
     }
     .Saloi143{
         top: 10%;
@@ -232,27 +236,35 @@ flex-direction: row;
         margin-left: 10px;
         // margin-bottom: 10px;
         // padding-top: -100px;
+        position: relative;
+        bottom: 2px;
     }
     .contact-info{
         // width: 30%;
         position: relative;
         top: -10%;
     }
+    .divider-icon{
+        // text-align: center;
+        display: flex;
+        justify-content: center;
+    }
     .divider-icon img{
-        top:34%;
+        top:22%;
+        width: 56%;
     }
     .footer-middle{
         height: 100px;
     }
     .developed-by{
-        margin-top: 6.8%;
-        font-size: 0.4rem;
+        margin-top: 3.8%;
+        font-size: 0.5rem;
     }
     .copyright{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
     .h_rule{
-        width: 80%;
+        width: 60%;
     }
     .sponsor {
         width: 100%;
@@ -274,30 +286,30 @@ flex-direction: row;
   }  
   @media (max-width: 500px) {
     .footer {
-      width: 95%;
-      height: 60%;
-      padding: 10px 5px;
+      width: 100%;
+      height: 70%;
+      padding: 5px 2px;
       border-radius: 35px 35px 0 0; /* Rounded top corners */
       box-shadow: 5px -6px 2px #752204;
     }
     .footer-left{
-        width: 80%;
-        font-size: 0.25rem;
+        width: 90%;
+        font-size: 0.45rem;
         margin-left: 1%;
+        padding: 0px;
+        padding-top: 20px;
     }
     .divider-icon img {
-      width: 30px;
+      width: 40px;
       top: 40%;
     }
-  
     .sponsor-logo img {
       width: 25%;
       left: 33%;
     //   font-size: 0.2rem;
-
     }
     .event-description {
-      font-size: 0.3rem;
+      font-size: 0.45rem;
     }
     .Saloi143{
         top: 10%;
@@ -319,13 +331,84 @@ flex-direction: row;
     }
     .footer-middle{
         height: 100px;
+        margin-left: -5%;
     }
     .developed-by{
         margin-top: 10%;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
+        width: 50%;
     }
     .copyright{
-        font-size: 0.4rem;
+        font-size: 0.45rem;
+    }
+    .h_rule{
+        width: 80%;
+    }
+    .Pankhi{
+        position: relative;
+        top: -20%;
+        font-size: 25px;
+    }
+    .sponsor{
+        height: 30vh;
+    }
+} 
+@media (max-width: 400px) {
+    .footer {
+      width: 100%;
+      height: 90%;
+      padding: 5px 2px;
+      border-radius: 35px 35px 0 0; /* Rounded top corners */
+      box-shadow: 5px -6px 2px #752204;
+    }
+    .footer-left{
+        width: 90%;
+        font-size: 0.45rem;
+        margin-left: 1%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .divider-icon img {
+      width: 40px;
+      top: 40%;
+    }
+    .sponsor-logo img {
+      width: 25%;
+      left: 33%;
+    //   font-size: 0.2rem;
+    }
+    .event-description {
+      font-size: 0.45rem;
+    }
+    .Saloi143{
+        top: 10%;
+        width: 3px;
+        transform: scale(0.6);
+    }
+    .mail{
+        margin-left: 10px;
+        // margin-bottom: 10px;
+        // padding-top: -100px;
+    }
+    .contact-info{
+        // width: 130%;
+        position: relative;
+        top: -10%;
+    }
+    .divider-icon img{
+        top:20%;
+    }
+    .footer-middle{
+        height: 100px;
+        margin-left: -5%;
+    }
+    .developed-by{
+        margin-top: 10%;
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .copyright{
+        font-size: 0.45rem;
     }
     .h_rule{
         width: 80%;
