@@ -1,0 +1,70 @@
+
+  
+.tilted-slider {
+    width: 101%;
+    height:4.5vh;
+    right: 0.3%;
+    /* border: solid 1px; */
+    z-index: 10;
+    position: relative;
+    /* top: px; */
+    /* transform: rotate(-4deg); */
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slider-slide {
+    display: flex;
+    /* position: absolute; */
+    /* position: relative; */
+    /* background: url(src/assets/strap.png) 0 0 repeat-x; */
+    /* background-size: auto 100%; */
+    width: 150%;
+    height: 100%;
+    /* top: -50%; */
+    left: -15%;
+    z-index: -1;
+    animation: key 16s linear infinite;
+    /* animation: slide 2s linear infinite; */
+    height: 100%;
+}
+.slider-slide img {
+    height: 100%;
+    /* Adjust the margin if needed to ensure proper spacing between iterations */
+    margin: 0;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+/* Optional: Add hover effect to pause animation */
+
+.slider-bottom {
+    width: 0;
+    height: 0;
+    border-left: 98vw solid transparent;
+    border-bottom: 6.9vw solid #2e2433;
+    z-index: 2;
+}
+@media (max-width: 1024px) {
+    .tilted-slider {
+      height: 3vh;
+    }
+  
+    .slider-slide {
+      width: 120%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tilted-slider {
+      height: 2vh;
+    }
+  
+    .slider-slide {
+      width: 110%;
+    }
+  }

@@ -21,11 +21,13 @@ export default function Hero() {
                     celebrate innovation and creativity. Stay tuned for updates
                     and be a part of the innovation wave at Techcracy!
                 </section>
+                {/* <a href="/events"> */}
                 <img
                     className="event_button"
                     src={eventButton}
                     alt="image loading"
                 />
+                {/* </a> */}
                 <img className="tv_1" src={tv1} alt="no loading"></img>
                 <img className="tv_2" src={tv2} alt="no loading"></img>
                 <img className="tv_3" src={tv1} alt="no loading"></img>

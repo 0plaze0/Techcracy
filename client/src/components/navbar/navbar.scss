@@ -19,7 +19,7 @@
 .navbar_1 {
   width: 33%;
   height: 100%;
-  // border: solid 1px;
+//   border: solid 1px;
 }
 .logo {
   width: 9%;
@@ -227,9 +227,9 @@
     // height: 100px;
   }
   .logo {
-    width: 25%;
+    // width: 25%;
     margin-left: 10%;
-    margin-top: 6.3%;
+    margin-top: 0.3%;
   }
   .event_1,
   .team_1,
@@ -257,12 +257,12 @@
 @media (max-width: 400px) {
     .navbar_main {
       flex-direction: row;
-      height: 70px;
+      height: 30px;
     }
     .navbar_main {
       width: 100%;
       border: solid 1px;
-    //   height: 1%;
+    //   height: 10%;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       background-color: white;
@@ -274,10 +274,11 @@
       bottom: 19.8%;
       // height: 100px;
     }
-    .logo {
-      width: 30%;
-      margin-left: 10%;
-      margin-top: 13%;
+    .logo{
+
+      width: 20%;
+    //   margin-left: 10%;
+    //   margin-top: 13%;
     }
     .event_1,
     .team_1,
@@ -293,14 +294,15 @@
       width: 40%;
     //   height: 100%;
       padding-right: 4%;
-      margin-top: -4%;
+      margin-top: 3px;
     }
+    
     .event_1,
     .journey_1,
     .team_1 {
       width: 55%;
       font-size: 8px;
-      height: 40%;
+      height: 90%;
     }
   }
   
