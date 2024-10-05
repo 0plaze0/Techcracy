@@ -74,9 +74,9 @@ export const teamRoles: TeamRoles[] = [
         role: "Finance Convenors",
         members: [
             {
-                name: "Kaniska Brahma",
+                name: "Kanishka Brahma",
                 role: "Finance Convenor",
-                image: "Kaniska Brahma.png",
+                image: "Kanishka Brahma.png",
             },
             {
                 name: "Jesika Basumatary",
