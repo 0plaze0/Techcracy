@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className="navbar_2"></div>
             <div className="navbar_3">
                 <div className="event_1">
-                    <a href="#">Home</a>{" "}
+                    <a href="/">Home</a>{" "}
                 </div>
                 <div className="team_1">
                     <a href="/events">Events</a>
