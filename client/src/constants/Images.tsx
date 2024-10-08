@@ -7,6 +7,13 @@ import poster6 from "./../assets/Wll pntng-05.png";
 import poster7 from "./../assets/speaker2.png";
 import poster8 from "./../assets/speaker.png";
 
+// sponser
+import krafton from "./../assets/sponser/krafton.jpeg";
+import ktm from "./../assets/sponser/ktm.jpeg";
+import sbi from "./../assets/sponser/sbi.jpeg";
+import leadststera from "./../assets/sponser/leadstera.png";
+import megatron from "./../assets/sponser/megatron.jpeg";
+
 export {
     poster1,
     poster2,
@@ -16,4 +23,9 @@ export {
     poster6,
     poster7,
     poster8,
+    krafton,
+    ktm,
+    sbi,
+    leadststera,
+    megatron,
 };

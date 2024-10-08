@@ -1,137 +1,141 @@
 /* General Styles */
 
 .sponsor {
-  width: 100%;
-  height: 98vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
-  flex-direction: column;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-direction: column;
 }
+.Pankhi {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
 .footer {
-  position: relative;
-  top: 2%;
-  background-color: #ff682f; /* Adjust based on the orange color in the design */
-  color: white;
-  padding: 40px 20px;
-  border: solid 1px black;
-  border-radius: 105px 105px 0 0; /* Rounded top corners */
-  width: 90%;
-  box-shadow: 7px -10px 2px #752204;
-  height: 50%;
+    position: relative;
+    top: 2%;
+    background-color: #ff682f; /* Adjust based on the orange color in the design */
+    color: white;
+    padding: 40px 20px;
+    border: solid 1px black;
+    border-radius: 105px 105px 0 0; /* Rounded top corners */
+    width: 90%;
+    box-shadow: 7px -10px 2px #752204;
+    height: 50%;
 }
-.footer-container{
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .footer-content {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .footer-left,
 .footer-right {
-  flex: 1;
-  padding: 20px;
-//   padding-left: 30px;
-//   border: solid 1px;
+    flex: 1;
+    padding: 20px;
+    //   padding-left: 30px;
+    //   border: solid 1px;
 }
 
-.footer-right{
-// padding-left: 30px;
-left: 3%;
-position: relative;
+.footer-right {
+    // padding-left: 30px;
+    left: 3%;
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 .footer-middle {
-//   border: solid 1px;
-  text-align: center;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    //   border: solid 1px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social-icons a img {
-  width: 30px; /* Adjust size */
-  margin-right: 15px;
+    width: 30px; /* Adjust size */
+    margin-right: 15px;
 }
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: column;
 }
-.mail{
+.mail {
     margin-top: 4px;
     transform: scale(1.19);
 }
 .contact-info {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 .contact-info address {
-  font-style: normal;
+    font-style: normal;
 }
 .contact-info a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 .divider-icon img {
-  width: 50px; /* Adjust size */
-  margin-bottom: 10px;
-  position: relative;
-  width: 100%;
-  top: 40%;
+    width: 50px; /* Adjust size */
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    top: 40%;
 }
 .developed-by {
-  margin-top: 30%;
-  font-size: 1rem;
+    margin-top: 30%;
+    font-size: 1rem;
 }
-.h_rule{
+.h_rule {
     border-top: solid 1px white;
     width: 100%;
 }
 .copyright {
-  font-size: 0.9rem;
-  opacity: 0.8;
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
 .sponsor-logo img {
-  width: 30%; /* Adjust size */
-  position: relative;
-  left: 30%;
+    width: 30%; /* Adjust size */
+    position: relative;
+    left: 30%;
 }
 .event-description {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  line-height: 1.4;
-  width: 93%;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    width: 93%;
 }
-.Pankhi{
-//   border: solid 1px;
-  font-family: DM Sans;
-  font-weight: 600;
-  font-size: 33px;
-  height: 50%;
-  
+.Pankhi {
+    //   border: solid 1px;
+    font-family: DM Sans;
+    font-weight: 600;
+    font-size: 33px;
+    height: 50%;
 }
-.Saloi143{
+.Saloi143 {
     // border: solid 1px;
-width: 100%;
-display: flex;
-flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 @media (max-width: 1024px) {
     .footer {
-      width: 95%;
-      height: 30%;
-      padding: 20px 10px;
-    border-radius: 45px 45px 0 0; /* Rounded top corners */
+        width: 95%;
+        height: 30%;
+        padding: 20px 10px;
+        border-radius: 45px 45px 0 0; /* Rounded top corners */
         top: 32%;
     }
     .sponsor {
@@ -143,49 +147,50 @@ flex-direction: row;
         justify-content: center;
         overflow: hidden;
         flex-direction: column;
-      }
+    }
     .footer-container {
         margin-top: -1%;
         margin-left: 2%;
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
-    .footer-left, .footer-middle, .footer-right {
-      flex: unset;
-      width: 100%;
-      padding: 10px;
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        flex: unset;
+        width: 100%;
+        padding: 10px;
     }
-    .footer-left{
+    .footer-left {
         width: 70%;
         font-size: 0.45rem;
     }
-  
+
     .divider-icon img {
-      width: 40px;
-      top: 40%;
+        width: 40px;
+        top: 40%;
     }
-  
+
     .event-description {
-      font-size: 0.6rem;
+        font-size: 0.6rem;
     }
     .sponsor-logo img {
         width: 22%;
         left: 33%;
-      //   font-size: 0.2rem;
-      }
-      .developed-by{
+        //   font-size: 0.2rem;
+    }
+    .developed-by {
         margin-top: 19%;
         font-size: 0.6rem;
-      }
-    .copyright{
-        font-size: 0.6rem;
-
     }
-    .h_rule{
+    .copyright {
+        font-size: 0.6rem;
+    }
+    .h_rule {
         width: 60%;
     }
-    .Pankhi{
+    .Pankhi {
         position: relative;
         top: -20%;
         height: 13%;
@@ -200,70 +205,70 @@ flex-direction: row;
         border-radius: 35px 35px 0 0; /* Rounded top corners */
         top: 29%;
     }
-    .footer-left{
+    .footer-left {
         width: 60%;
         font-size: 0.46rem;
         position: relative;
         left: 4%;
         // top: 10%;
-        padding-top:23px;
+        padding-top: 23px;
     }
-    .footer-middle{
-            position: relative;
-            left: 4%;
-        }
-        .divider-icon img {
-            width: 30px;
-            //   top: 100%;
-        }
+    .footer-middle {
+        position: relative;
+        left: 4%;
+    }
+    .divider-icon img {
+        width: 30px;
+        //   top: 100%;
+    }
     .sponsor-logo img {
-      width: 25%;
-      left: 33%;
-    //   top: 20%;
-    //   font-size: 0.2rem;
+        width: 25%;
+        left: 33%;
+        //   top: 20%;
+        //   font-size: 0.2rem;
     }
     .event-description {
-      font-size: 0.45rem;
-      top: 10%;
-      width: 80%;
+        font-size: 0.45rem;
+        top: 10%;
+        width: 80%;
     }
-    .Saloi143{
+    .Saloi143 {
         top: 10%;
         width: 3px;
         transform: scale(0.6);
     }
-    .mail{
+    .mail {
         margin-left: 10px;
         // margin-bottom: 10px;
         // padding-top: -100px;
         position: relative;
         bottom: 2px;
     }
-    .contact-info{
+    .contact-info {
         // width: 30%;
         position: relative;
         top: -10%;
     }
-    .divider-icon{
+    .divider-icon {
         // text-align: center;
         display: flex;
         justify-content: center;
     }
-    .divider-icon img{
-        top:22%;
+    .divider-icon img {
+        top: 22%;
         width: 56%;
     }
-    .footer-middle{
+    .footer-middle {
         height: 100px;
     }
-    .developed-by{
+    .developed-by {
         margin-top: 3.8%;
         font-size: 0.5rem;
     }
-    .copyright{
+    .copyright {
         font-size: 0.5rem;
     }
-    .h_rule{
+    .h_rule {
         width: 60%;
     }
     .sponsor {
@@ -275,24 +280,24 @@ flex-direction: row;
         justify-content: center;
         overflow: hidden;
         flex-direction: column;
-      }
-    .Pankhi{
+    }
+    .Pankhi {
         height: 5%;
         position: relative;
         top: -20%;
         // border: solid 1px;
         font-size: 30px;
     }
-  }  
-  @media (max-width: 500px) {
+}
+@media (max-width: 500px) {
     .footer {
-      width: 100%;
-      height: 70%;
-      padding: 5px 2px;
-      border-radius: 35px 35px 0 0; /* Rounded top corners */
-      box-shadow: 5px -6px 2px #752204;
+        width: 100%;
+        height: 70%;
+        padding: 5px 2px;
+        border-radius: 35px 35px 0 0; /* Rounded top corners */
+        box-shadow: 5px -6px 2px #752204;
     }
-    .footer-left{
+    .footer-left {
         width: 90%;
         font-size: 0.45rem;
         margin-left: 1%;
@@ -300,68 +305,68 @@ flex-direction: row;
         padding-top: 20px;
     }
     .divider-icon img {
-      width: 40px;
-      top: 40%;
+        width: 40px;
+        top: 40%;
     }
     .sponsor-logo img {
-      width: 25%;
-      left: 33%;
-    //   font-size: 0.2rem;
+        width: 25%;
+        left: 33%;
+        //   font-size: 0.2rem;
     }
     .event-description {
-      font-size: 0.45rem;
+        font-size: 0.45rem;
     }
-    .Saloi143{
+    .Saloi143 {
         top: 10%;
         width: 3px;
         transform: scale(0.6);
     }
-    .mail{
+    .mail {
         margin-left: 10px;
         // margin-bottom: 10px;
         // padding-top: -100px;
     }
-    .contact-info{
+    .contact-info {
         // width: 130%;
         position: relative;
         top: -10%;
     }
-    .divider-icon img{
-        top:20%;
+    .divider-icon img {
+        top: 20%;
     }
-    .footer-middle{
+    .footer-middle {
         height: 100px;
         margin-left: -5%;
     }
-    .developed-by{
+    .developed-by {
         margin-top: 10%;
         font-size: 0.5rem;
         width: 50%;
     }
-    .copyright{
+    .copyright {
         font-size: 0.45rem;
     }
-    .h_rule{
+    .h_rule {
         width: 80%;
     }
-    .Pankhi{
+    .Pankhi {
         position: relative;
         top: -20%;
         font-size: 25px;
     }
-    .sponsor{
-        height: 30vh;
+    .sponsor {
+        height: 100vh;
     }
-} 
+}
 @media (max-width: 400px) {
     .footer {
-      width: 100%;
-      height: 90%;
-      padding: 5px 2px;
-      border-radius: 35px 35px 0 0; /* Rounded top corners */
-      box-shadow: 5px -6px 2px #752204;
+        width: 100%;
+        height: 90%;
+        padding: 5px 2px;
+        border-radius: 35px 35px 0 0; /* Rounded top corners */
+        box-shadow: 5px -6px 2px #752204;
     }
-    .footer-left{
+    .footer-left {
         width: 90%;
         font-size: 0.45rem;
         margin-left: 1%;
@@ -369,56 +374,56 @@ flex-direction: row;
         padding-top: 20px;
     }
     .divider-icon img {
-      width: 40px;
-      top: 40%;
+        width: 40px;
+        top: 40%;
     }
     .sponsor-logo img {
-      width: 25%;
-      left: 33%;
-    //   font-size: 0.2rem;
+        width: 25%;
+        left: 33%;
+        //   font-size: 0.2rem;
     }
     .event-description {
-      font-size: 0.45rem;
+        font-size: 0.45rem;
     }
-    .Saloi143{
+    .Saloi143 {
         top: 10%;
         width: 3px;
         transform: scale(0.6);
     }
-    .mail{
+    .mail {
         margin-left: 10px;
         // margin-bottom: 10px;
         // padding-top: -100px;
     }
-    .contact-info{
+    .contact-info {
         // width: 130%;
         position: relative;
         top: -10%;
     }
-    .divider-icon img{
-        top:20%;
+    .divider-icon img {
+        top: 20%;
     }
-    .footer-middle{
+    .footer-middle {
         height: 100px;
         margin-left: -5%;
     }
-    .developed-by{
+    .developed-by {
         margin-top: 10%;
         font-size: 0.5rem;
         width: 50%;
     }
-    .copyright{
+    .copyright {
         font-size: 0.45rem;
     }
-    .h_rule{
+    .h_rule {
         width: 80%;
     }
-    .Pankhi{
+    .Pankhi {
         position: relative;
         top: -20%;
         font-size: 25px;
     }
-    .sponsor{
-        height: 30vh;
+    .sponsor {
+        height: 100vh;
     }
-} 
+}

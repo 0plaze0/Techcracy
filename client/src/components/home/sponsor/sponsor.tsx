@@ -3,11 +3,15 @@ import insta from "./../../../assets/insta.png";
 import mail from "./../../../assets/gmail.png";
 import cit3 from "./../../../assets/cit3.png";
 import logo_tech from "./../../../assets/logo_tech.png";
+import { SponserCarousel } from "../../events";
+import { sponserList } from "../../../constants/sponserList";
 
 export default function Sponsor() {
     return (
         <div className="sponsor">
-            <div className="Pankhi"></div>
+            <div className="Pankhi">
+                {sponserList && <SponserCarousel events={sponserList} />}
+            </div>
             <footer className="footer">
                 <div className="footer-container">
                     <div className="footer-content">
